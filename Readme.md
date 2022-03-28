@@ -1,7 +1,7 @@
 # Личный проект «Мишка» 
 
 * Студент: [Семён Крекотун](https://up.htmlacademy.ru/adaptive/25/user/2002913).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Артёмов](https://htmlacademy.ru/profile/firefoxic).
 
 ---
 
