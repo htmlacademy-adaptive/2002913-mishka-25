@@ -48,7 +48,7 @@
       <form class="order__form form" action="https://echo.htmlacademy.ru" method="post">
         <p class="form__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
         <fieldset class="form__field-type type-form">
-          <legend>Тип</legend>
+          <legend class="type-form__title">Тип</legend>
           <ul class="type-form__list">
             <li class="type-form__item">
               <label class="type-form__control">
@@ -65,6 +65,54 @@
               </label>
             </li>
           </ul>
+        </fieldset>
+        <fieldset class="form__field-color color-form">
+          <legend class="color-form__title">
+            <ul class="color-form__list">
+              <li class="color-form__item">
+                <label class="color-form__control">
+                  <input class="visually-hidden" type="checkbox" name="color-product" value="white" checked>
+                  <span class="color-form__control-mark color-form__control-mark--checkbox color-form__control-mark--checked"></span>
+                  <span class="color-form__control-label color-form__control-label--checkbox">Белый</span>
+                </label>
+              </li>
+              <li class="color-form__item">
+                <label class="color-form__control">
+                  <input class="visually-hidden" type="checkbox" name="color-product" value="tiffany">
+                  <span class="color-form__control-mark color-form__control-mark--checkbox"></span>
+                  <span class="color-form__control-label color-form__control-label--checkbox">Тиффани</span>
+                </label>
+              </li>
+              <li class="color-form__item">
+                <label class="color-form__control">
+                  <input class="visually-hidden" type="checkbox" name="color-product" value="pink">
+                  <span class="color-form__control-mark color-form__control-mark--checkbox"></span>
+                  <span class="color-form__control-label color-form__control-label--checkbox">Розовый</span>
+                </label>
+              </li>
+              <li class="color-form__item">
+                <label class="color-form__control">
+                  <input class="visually-hidden" type="checkbox" name="color-product" value="gray" checked>
+                  <span class="color-form__control-mark color-form__control-mark--checkbox color-form__control-mark--checked"></span>
+                  <span class="color-form__control-label color-form__control-label--checkbox">Серый</span>
+                </label>
+              </li>
+              <li class="color-form__item">
+                <label class="color-form__control">
+                  <input class="visually-hidden" type="checkbox" name="color-product" value="black">
+                  <span class="color-form__control-mark color-form__control-mark--checkbox"></span>
+                  <span class="color-form__control-label color-form__control-label--checkbox">Чёрный</span>
+                </label>
+              </li>
+              <li class="color-form__item">
+                <label class="color-form__control">
+                  <input class="visually-hidden" type="checkbox" name="color-product" value="orange">
+                  <span class="color-form__control-mark color-form__control-mark--checkbox"></span>
+                  <span class="color-form__control-label color-form__control-label--checkbox">Оранжевый</span>
+                </label>
+              </li>
+            </ul>
+          </legend>
         </fieldset>
       </form>
     </div>
