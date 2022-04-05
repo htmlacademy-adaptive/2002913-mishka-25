@@ -54,14 +54,12 @@
             <li class="type-form__item">
               <label class="type-form__control">
                 <input class="visually-hidden" type="radio" name="type-product" value="interior" checked>
-                <span class="type-form__control-mark type-form__control-mark--radio type-form__control-mark--checked"></span>
                 <span class="type-form__control-label type-form__control-label--radio">Аксессуар для интерьера</span>
               </label>
             </li>
             <li class="type-form__item">
               <label class="type-form__control">
                 <input class="visually-hidden" type="radio" name="type-product" value="toy">
-                <span class="type-form__control-mark type-form__control-mark--radio"></span>
                 <span class="type-form__control-label type-form__control-label--radio">Детская игрушка</span>
               </label>
             </li>
@@ -73,42 +71,36 @@
               <li class="color-form__item">
                 <label class="color-form__control">
                   <input class="visually-hidden" type="checkbox" name="color-product" value="white" checked>
-                  <span class="color-form__control-mark color-form__control-mark--checkbox color-form__control-mark--checked"></span>
                   <span class="color-form__control-label color-form__control-label--checkbox">Белый</span>
                 </label>
               </li>
               <li class="color-form__item">
                 <label class="color-form__control">
                   <input class="visually-hidden" type="checkbox" name="color-product" value="tiffany">
-                  <span class="color-form__control-mark color-form__control-mark--checkbox"></span>
                   <span class="color-form__control-label color-form__control-label--checkbox">Тиффани</span>
                 </label>
               </li>
               <li class="color-form__item">
                 <label class="color-form__control">
                   <input class="visually-hidden" type="checkbox" name="color-product" value="pink">
-                  <span class="color-form__control-mark color-form__control-mark--checkbox"></span>
                   <span class="color-form__control-label color-form__control-label--checkbox">Розовый</span>
                 </label>
               </li>
               <li class="color-form__item">
                 <label class="color-form__control">
                   <input class="visually-hidden" type="checkbox" name="color-product" value="gray" checked>
-                  <span class="color-form__control-mark color-form__control-mark--checkbox color-form__control-mark--checked"></span>
                   <span class="color-form__control-label color-form__control-label--checkbox">Серый</span>
                 </label>
               </li>
               <li class="color-form__item">
                 <label class="color-form__control">
                   <input class="visually-hidden" type="checkbox" name="color-product" value="black">
-                  <span class="color-form__control-mark color-form__control-mark--checkbox"></span>
                   <span class="color-form__control-label color-form__control-label--checkbox">Чёрный</span>
                 </label>
               </li>
               <li class="color-form__item">
                 <label class="color-form__control">
                   <input class="visually-hidden" type="checkbox" name="color-product" value="orange">
-                  <span class="color-form__control-mark color-form__control-mark--checkbox"></span>
                   <span class="color-form__control-label color-form__control-label--checkbox">Оранжевый</span>
                 </label>
               </li>
@@ -123,11 +115,11 @@
             </li>
             <li class="user-form__item">
               <label class="user-form__name" for="surname">Фамилия:</label>
-              <input class="user-form__value" type="text" id="name">
+              <input class="user-form__value" type="text" id="surname">
             </li>
             <li class="user-form__item">
               <label class="user-form__name" for="middle-name">Отчество:</label>
-              <input class="user-form__value" type="text" id="name">
+              <input class="user-form__value" type="text" id="middle-name">
             </li>
           </ul>
         </fieldset>
@@ -139,14 +131,14 @@
               </li>
             </ul>
         </fieldset>
-        <fieldset class="form__field-email email-form">
-          <legend class="email-form__title">e-mail</legend>
-          <input class="email-form__value" type="email">
-        </fieldset>
-        <fieldset class="form__field-info info-form">
-          <legend class="info-form__title">Доп</legend>
-          <textarea class="info-form__text" name="additional-info" cols="30" rows="8"></textarea>
-        </fieldset>
+        <div class="form__field-email email-form">
+          <label class="email-form__title" for="email">e-mail</label>
+          <input class="email-form__value" type="email" id="email">
+        </div>
+        <div class="form__field-info info-form">
+          <label class="info-form__title" for="additional-info">Доп</label>
+          <textarea class="info-form__text" name="additional-info" id="additional-info" cols="30" rows="8"></textarea>
+        </div>
         <span class="form__required-note"><sup>*</sup>Поля обязательны для заполнения</span>
         <div class="form__button">
           <button type="submit">Отправить заказ</button>
