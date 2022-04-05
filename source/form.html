@@ -123,19 +123,19 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset class="form__field-tel tel-form">
-          <legend class="tel-form__title"><span class="visually-hidden">Номер телефона</span></legend>
-            <ul class="tel-form__list">
-              <li class="tel-form__item">
-                <label for="tel-number">Тел</label>
-                <input class="tel-form__value" type="tel" name="tel-number" id="tel-number">
+        <fieldset class="form__field-tel сontact-details">
+          <legend class="сontact-details__title"><span class="visually-hidden">Contact details</span></legend>
+            <ul class="сontact-details__list">
+              <li class="сontact-details__item tel-number">
+                <label class="tel-number__title" for="tel-number">Тел</label>
+                <input class="сontact-details__value" type="tel" name="tel-number" id="tel-number">
+              </li>
+              <li class="сontact-details__item email-form">
+                <label class="email-form__title" for="email">e-mail</label>
+                <input class="email-form__value" type="email" id="email">
               </li>
             </ul>
         </fieldset>
-        <div class="form__field-email email-form">
-          <label class="email-form__title" for="email">e-mail</label>
-          <input class="email-form__value" type="email" id="email">
-        </div>
         <div class="form__field-info info-form">
           <label class="info-form__title" for="additional-info">Доп</label>
           <textarea class="info-form__text" name="additional-info" id="additional-info" cols="30" rows="8"></textarea>
