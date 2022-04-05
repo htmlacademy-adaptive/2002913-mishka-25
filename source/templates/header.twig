@@ -1,0 +1,37 @@
+<header class="main-header">
+  <a class="main-header__logo" href="index.html" {% if permalink == "index.html" %}aria-current="page"{% endif %}>
+    <img src="icons/logo-mobile.svg" width="86" height="35" alt="Логотип Мишки.">
+  </a>
+  <nav class="main-nav">
+    <button class="main-nav__toggle" type="button">
+      <span class="visually-hidden">Открыть меню</span>
+    </button>
+    <div class="main-nav__container">
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item">
+          <a class="site-list__link" href="catalog.html" {% if permalink == "catalog.html" %}aria-current="page"{% endif %}>Каталог товаров</a>
+          <ul class="main-nav__list site-sublist">
+            <li class="site-sublist__item">
+              <a class="site-sublist__link" href="#">Новые поступления</a>
+            </li>
+            <li class="site-sublist__item">
+              <a class="site-sublist__link" href="#">Распродажа</a>
+            </li>
+          </ul>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="form.html" {% if permalink == "form.html" %}aria-current="page"{% endif %}>Вязание на заказ</a>
+        </li>
+      </ul>
+      <ul class="main-nav__list user-list">
+        <li class="user-list__item">
+          <a class="user-list__link" href="#">Поиск по сайту</a>
+        </li>
+        <li class="user-list__item">
+          <a class="user-list__link" href="#">Корзина: пока пуста</a>
+          <p class="user-list__description">Бесплатная доставка по России</p>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
