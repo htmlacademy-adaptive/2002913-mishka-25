@@ -1,2 +1,6 @@
-@use "./global/global.scss";
-@use "./blocks/button.scss";
+@import "./global/global.scss";
+@import "./blocks/button.scss";
+
+body {
+  background: #ffffff;
+}
