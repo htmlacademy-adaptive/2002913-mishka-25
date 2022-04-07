@@ -1,0 +1,12 @@
+:root {
+  --main-color: #ffffff;
+  --second-color: #f1f1f1;
+  --accent-color: #63d1bb;
+  --accent-color-dark: #56c3b2;
+  --button-color: #444444;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}

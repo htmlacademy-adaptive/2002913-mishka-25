@@ -1,0 +1,10 @@
+.products {
+  background-image: url("../../img/background-featured-mobile.jpg");
+  background-color: var(--main-color, #ffffff);
+  background-repeat: no-repeat;
+  padding-top: 90px;
+}
+
+.products__title {
+  margin: 0 auto 90px;
+}

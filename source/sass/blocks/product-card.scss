@@ -1,0 +1,19 @@
+.product-card {
+  background: var(--main-color);
+  color: #444444;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.product-card__title {
+  margin-bottom: 3.5px;
+}
+
+.product-card__label {
+  margin-bottom: 17.5px;
+}
+
+.product-card__description {
+  margin: 0;
+}
