@@ -1,6 +1,20 @@
 .button {
   font-family: var(--main-font);
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
   width: fit-content;
+  background: var(--main-color);
+  padding: 16px 70px;
+  color: #444444;
+  border: 2px solid #444444;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+
 
   &--size_wide {
     width: 100%;

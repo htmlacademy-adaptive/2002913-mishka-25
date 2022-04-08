@@ -1,0 +1,36 @@
+.product {
+  background: var(--main-color);
+  color: #444444;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.product__title {
+  margin-bottom: 3.5px;
+}
+
+.product__label {
+  margin-bottom: 17.5px;
+}
+
+.product__description {
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.product__list {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.product__image {
+  margin: 0;
+  margin-bottom: 25.5px;
+}
+
+.product__price {
+  margin: 0;
+  margin-bottom: 24.5;
+}

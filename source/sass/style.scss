@@ -13,9 +13,14 @@
 @import "./blocks/products.scss";
 @import "./blocks/product-list.scss";
 @import "./blocks/featured.scss";
-@import "./blocks/product-card.scss";
+@import "./blocks/product.scss";
 @import "./blocks/card-label.scss";
-
+@import "./blocks/product-specification.scss";
+@import "./blocks/product-price.scss";
+@import "./blocks/advantage.scss";
+@import "./blocks/reviews.scss";
+@import "./blocks/quote.scss";
+@import "./blocks/button-reviews.scss";
 
 body {
   background: #ffffff;
