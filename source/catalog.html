@@ -4,13 +4,13 @@
 
 {% block main %}
 
-<main class="main-container">
-  <h1 class="main-container__title">Каталог товаров</h1>
-  <section class="products">
+<main class="catalog-page page-centerer">
+  <h1 class="catalog-page__title catalog-title heading">Каталог товаров</h1>
+  <section class="catalog-page__products catalog-products">
     <h2 class="visually-hidden">Карточки товаров</h2>
-    <ul class="products__list">
-      <li class="products__item card-product">
-        <a href="#"><h2 class="card-product__title">Зайчик-попрыгайчик</h2></a>
+    <ul class="catalog-products__list">
+      <li class="catalog-products__item card-product">
+        <a class="card-product__link" href="#"><h2 class="card-product__title heading--level_3">Зайчик-попрыгайчик</h2></a>
         <a href="#"><img class="card-product__image" src="img/catalog/bunny-mobile.jpg" width="260" height="195" alt="Вязанный зайчик-попрыгайчик голубого цвета."></a>
         <dl class="card-product__list description-list">
           <dt class="description-list__name">Рост</dt>
@@ -23,8 +23,8 @@
           <button class="product-price__button" type="button"><span class="visually-hidden">Добавить в корзину</span></button>
         </p>
       </li>
-      <li class="products__item card-product">
-        <a href="#"><h2 class="card-product__title">Корзинка для белья</h2></a>
+      <li class="catalog-products__item card-product">
+        <a class="card-product__link" href="#"><h2 class="card-product__title heading--level_3">Корзинка для белья</h2></a>
         <a href="#"><img class="card-product__image" src="img/catalog/laundry-basket-mobile.jpg" width="260" height="195" alt="Вязанная корзина наполненная полотенцами."></a>
         <dl class="card-product__list description-list">
           <dt class="description-list__name">Диаметр</dt>
@@ -37,8 +37,8 @@
           <button class="product-price__button" type="button"><span class="visually-hidden">Добавить в корзину</span></button>
         </p>
       </li>
-      <li class="products__item card-product">
-        <a href="#"><h2 class="card-product__title">Зайчик-попрыгайчик</h2></a>
+      <li class="catalog-products__item card-product">
+        <a class="card-product__link" href="#"><h2 class="card-product__title heading--level_3">Большая корзинка для игрушек</h2></a>
         <a href="#"><img class="card-product__image" src="img/catalog/toy-basket-mobile.jpg" width="260" height="195" alt="Вязанная корзина наполненная мягкими игрушками."></a>
         <dl class="card-product__list description-list">
           <dt class="description-list__name">Диаметр</dt>
@@ -53,7 +53,7 @@
       </li>
     </ul>
   </section>
-  <article class="production">
+  <article class="catalog-page__production production">
     <div class="production__container">
       <h2 class="production__title">Процесс производства</h2>
       <div class="production__video preview">

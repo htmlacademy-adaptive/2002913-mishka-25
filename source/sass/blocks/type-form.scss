@@ -1,0 +1,12 @@
+.type-form__list {
+  list-style-type: none;
+  margin: 0;
+}
+
+.type-form__title {
+  margin-bottom: 35px;
+}
+
+.type-form__item:not(:last-child) {
+  margin-bottom: 24px;
+}
