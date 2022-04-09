@@ -5,14 +5,3 @@
   --accent-color-dark: #56c3b2;
   --button-color: #444444;
 }
-
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
-}
-
-.line-decor__bottom {
-  background-image: url("../../img/zigzag-line.svg");
-  background-position: bottom;
-  background-repeat: repeat-x;
-}

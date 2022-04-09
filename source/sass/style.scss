@@ -2,6 +2,8 @@
 @import "./global/fonts.scss";
 @import "./global/variables.scss";
 @import "./blocks/page.scss";
+@import "./blocks/visually-hidden.scss";
+@import "./blocks/line-decor.scss";
 @import "./blocks/main-header.scss";
 @import "./blocks/header-logo.scss";
 @import "./blocks/main-nav.scss";
@@ -44,6 +46,9 @@
 @import "./blocks/catalog-title.scss";
 @import "./blocks/catalog-products.scss";
 @import "./blocks/card-product.scss";
+@import "./blocks/description-list.scss";
+@import "./blocks/price-of-item.scss";
+@import "./blocks/video-description.scss";
 
 body {
   background: #ffffff;
