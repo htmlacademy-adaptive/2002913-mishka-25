@@ -1,3 +1,23 @@
+.card-product {
+  display: flex;
+  flex-direction: column;
+  min-width: 260px;
+
+  @media (--tablet) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 54px 0;
+  }
+}
+
+.card-product__image {
+  order: -1;
+
+  @media (--not-mobile) {
+    grid-column: 1 / 2;
+  }
+}
+
 .card-product__link {
   text-decoration: none;
   color: #000000;

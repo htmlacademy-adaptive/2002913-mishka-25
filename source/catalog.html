@@ -8,62 +8,82 @@
   <h1 class="catalog-page__title catalog-title heading">Каталог товаров</h1>
   <section class="catalog-page__products catalog-products">
     <h2 class="visually-hidden">Карточки товаров</h2>
-    <ul class="catalog-products__list">
+    <ul class="catalog-products__list cards-wrapper">
       <li class="catalog-products__item card-product">
-        <a class="card-product__link" href="#"><h2 class="card-product__title heading heading--level_3">Зайчик-попрыгайчик</h2></a>
-        <a href="#"><img class="card-product__image" src="img/catalog/bunny-mobile.jpg" width="260" height="195" alt="Вязанный зайчик-попрыгайчик голубого цвета."></a>
-        <dl class="card-product__list description-list">
-          <dt class="description-list__name">Рост</dt>
-          <dd class="description-list__value">30 см,</dd>
-          <dt class="description-list__name">вес</dt>
-          <dd class="description-list__value">200 г</dd>
-        </dl>
+        <div class="description-wrapper">
+          <a class="card-product__link" href="#">
+            <h2 class="card-product__title heading heading--level_3">Зайчик-попрыгайчик</h2>
+          </a>
+          <dl class="card-product__list description-list">
+            <dt class="description-list__name">Рост</dt>
+            <dd class="description-list__value">30 см,</dd>
+            <dt class="description-list__name">вес</dt>
+            <dd class="description-list__value">200 г</dd>
+          </dl>
+        </div>
+        <a class="card-product__image" href="#"><img src="img/catalog/bunny-mobile.jpg" width="260" height="195"
+            alt="Вязанный зайчик-попрыгайчик голубого цвета."></a>
+
         <p class="card-product__price price-of-item">
           <span class="price-of-item__value">1200 руб.</span>
-          <button class="price-of-item__button" type="button"><span class="visually-hidden">Добавить в корзину</span></button>
+          <button class="price-of-item__button" type="button"><span class="visually-hidden">Добавить в
+              корзину</span></button>
         </p>
       </li>
       <li class="catalog-products__item card-product">
-        <a class="card-product__link" href="#"><h2 class="card-product__titl heading heading--level_3">Корзинка для белья</h2></a>
-        <a href="#"><img class="card-product__image" src="img/catalog/laundry-basket-mobile.jpg" width="260" height="195" alt="Вязанная корзина наполненная полотенцами."></a>
-        <dl class="card-product__list description-list">
-          <dt class="description-list__name">Диаметр</dt>
-          <dd class="description-list__value">15 см,</dd>
-          <dt class="description-list__name">высота</dt>
-          <dd class="description-list__value">10 см</dd>
-        </dl>
+        <div class="description-wrapper">
+          <a class="card-product__link" href="#">
+            <h2 class="card-product__titl heading heading--level_3">Корзинка для белья</h2>
+          </a>
+          <dl class="card-product__list description-list">
+            <dt class="description-list__name">Диаметр</dt>
+            <dd class="description-list__value">15 см,</dd>
+            <dt class="description-list__name">высота</dt>
+            <dd class="description-list__value">10 см</dd>
+          </dl>
+        </div>
+        <a class="card-product__image" href="#"><img src="img/catalog/laundry-basket-mobile.jpg" width="260"
+            height="195" alt="Вязанная корзина наполненная полотенцами."></a>
         <p class="card-product__price price-of-item">
           <span class="price-of-item__value">690 руб.</span>
-          <button class="price-of-item__button" type="button"><span class="visually-hidden">Добавить в корзину</span></button>
+          <button class="price-of-item__button" type="button"><span class="visually-hidden">Добавить в
+              корзину</span></button>
         </p>
       </li>
       <li class="catalog-products__item card-product">
-        <a class="card-product__link" href="#"><h2 class="card-product__title heading heading--level_3">Большая корзинка для игрушек</h2></a>
-        <a href="#"><img class="card-product__image" src="img/catalog/toy-basket-mobile.jpg" width="260" height="195" alt="Вязанная корзина наполненная мягкими игрушками."></a>
-        <dl class="card-product__list description-list">
-          <dt class="description-list__name">Диаметр</dt>
-          <dd class="description-list__value">30 см,</dd>
-          <dt class="description-list__name">высота</dt>
-          <dd class="description-list__value">30 см</dd>
-        </dl>
+        <div class="description-wrapper">
+          <a class="card-product__link" href="#">
+            <h2 class="card-product__title heading heading--level_3">Большая корзинка для игрушек</h2>
+          </a>
+          <dl class="card-product__list description-list">
+            <dt class="description-list__name">Диаметр</dt>
+            <dd class="description-list__value">30 см,</dd>
+            <dt class="description-list__name">высота</dt>
+            <dd class="description-list__value">30 см</dd>
+          </dl>
+        </div>
+        <a class="card-product__image" href="#"><img src="img/catalog/toy-basket-mobile.jpg" width="260" height="195"
+            alt="Вязанная корзина наполненная мягкими игрушками."></a>
         <p class="card-product__price price-of-item">
           <span class="price-of-item__value">1500 руб.</span>
-          <button class="price-of-item__button" type="button"><span class="visually-hidden">Добавить в корзину</span></button>
+          <button class="price-of-item__button" type="button"><span class="visually-hidden">Добавить в
+              корзину</span></button>
         </p>
       </li>
     </ul>
   </section>
   <article class="catalog-page__production production">
-    <div class="production__container">
-      <h2 class="production__title heading heading--level_3">Процесс производства</h2>
-      <div class="production__video preview">
-        <img class="preview__image" src="img/catalog/video-mobile.jpg"  width="260" height="195" alt="Тут должно быть интересное видео.">
+    <div class="production__container production-container">
+      <div class="production-container__content">
+        <h2 class="production__title heading heading--level_3">Процесс производства</h2>
+        <span class="production__content video-description">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о
+            том, как появляются наши товары.</span>
+        <a class="production__button button" href="#">Сделать заказ</a>
+      </div>
+      <div class="production-container__video preview">
+        <img class="preview__image" src="img/catalog/video-mobile.jpg" alt="Тут должно быть интересное видео.">
         <button class="preview__button" type="button"></button>
       </div>
-      <p class="production__content video-description">
-        <span class="video-description__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</span>
-        <a class="video-description__button button" href="#">Сделать заказ</a>
-      </p>
     </div>
   </article>
 </main>

@@ -1,7 +1,15 @@
 .catalog-products {
-  padding: 30px;
+  min-width: 260px;
+
+  @media (--desktop) {
+    width: 1051px;
+  }
 }
 
 .catalog-products__list {
   list-style-type: none;
+}
+
+.card-product__image {
+  object-fit: cover;
 }

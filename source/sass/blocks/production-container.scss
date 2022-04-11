@@ -1,0 +1,29 @@
+.production-container {
+  display: flex;
+  flex-direction: column;
+
+  @media (--desktop) {
+    flex-direction: row;
+    width: 1050px;
+  }
+}
+
+.production-container__video {
+  order: -1;
+
+  @media (--desktop) {
+    width: 682px;
+  }
+}
+
+.production-container__content {
+  display: flex;
+  flex-direction: column;
+  padding: 41px 42px 46px;
+  max-width: 668px;
+
+  @media (--desktop) {
+    width: 368px;
+    justify-content: space-between;
+  }
+}

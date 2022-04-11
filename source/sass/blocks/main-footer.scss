@@ -1,4 +1,17 @@
 .main-footer {
   background: var(--second-color);
-  padding: 25px 69px 23px;
+}
+
+.main-footer__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-footer__logo {
+  display: none;
+
+  @media (--not-mobile) {
+    display: block;
+    height: 34px;
+  }
 }
