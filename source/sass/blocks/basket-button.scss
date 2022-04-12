@@ -1,3 +1,22 @@
+.basket-button__field {
+  padding: 0;
+  margin: 0;
+}
+
 .basket-button__title {
-  margin-bottom: 21.5px;
+  margin-bottom: 19.5px;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgba(68, 68, 68, 1);
+  text-align: center;
+}
+
+.basket-button__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 7px;
 }

@@ -1,10 +1,13 @@
 .modal-form {
-  padding: 28.5px 30px 46px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal-form__title {
   margin: 0;
   margin-bottom: 14px;
+  text-align: center;
 }
 
 .modal-form__buttons {
