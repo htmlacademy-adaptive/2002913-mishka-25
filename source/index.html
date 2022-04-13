@@ -6,42 +6,47 @@
 
 <main class="main-container">
   <h1 class="visually-hidden">Магазин милых штук ручной работы для дома "Mishka"</h1>
-  <section class="products">
-    <div class="page__centerer">
+  <section class="products page-centerer">
+    <div class="">
       <h2 class="products__title heading">Милые штуки ручной работы для дома</h2>
-      <ul class="products-list products__list">
-        <li class="products-list__item">
-          <a class="products-list__link products-list__link--icon_interior" href="#">Предметы интерьера</a>
+      <ul class="products__list products-list ">
+        <li class="products-list__item products-list__item--icon_interior">
+          <a class="products-list__link " href="#">Предметы интерьера</a>
         </li>
-        <li class="products-list__item">
-          <a class="products-list__link products-list__link--icon_toy" href="#">Детские игрушки</a>
+        <li class="products-list__item products-list__item--icon_toy">
+          <a class="products-list__link" href="#">Детские игрушки</a>
         </li>
       </ul>
     </div>
   </section>
   <section class="featured line-decor line-decor--bottom">
-    <div class="featured__container">
+    <div class="featured__container page-centerer">
       <h2 class="visually-hidden">Описание</h2>
       <div class="featured__product product">
         <h3 class="product__title heading heading--level_2">Вязаные корзинки</h3>
         <span class="product__label card-label">Товар недели</span>
-        <p class="product__description">
-          Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трёх размерах.
-        </p>
-        <dl class="product__list product-specification">
-          <dt class="product__item">Цвет:</dt>
-          <dd class="product__specification">иффани/серый</dd>
-          <dt class="product__item">Диаметр:</dt>
-          <dd class="product__specification">25 см</dd>
-          <dt class="product__item">Высота:</dt>
-          <dd class="product__specification">15 см</dd>
-        </dl>
-        <img class="product__image" src="img/basket-mobile.jpg" width="260" height="315" alt="Набор из трёх вязанных корзинок.">
-        <dl class="product__price product-price">
-          <dt class="product-price__description">Цена:</dt>
-          <dd class="product-price__number">990 руб.</dd>
-        </dl>
-        <a class="product__button button" href="form.html">Заказать</a>
+        <div class="product__description-container">
+          <p class="product__description">
+            Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трёх размерах.
+          </p>
+          <dl class="product__list product-specification">
+            <dt class="product__item">Цвет:</dt>
+            <dd class="product__specification">иффани/серый</dd>
+            <dt class="product__item">Диаметр:</dt>
+            <dd class="product__specification">25 см</dd>
+            <dt class="product__item">Высота:</dt>
+            <dd class="product__specification">15 см</dd>
+          </dl>
+        </div>
+        <img class="product__image" src="img/basket-mobile.jpg" width="260" height="315"
+          alt="Набор из трёх вязанных корзинок.">
+        <div class="product__price-container">
+          <dl class="product__price product-price">
+            <dt class="product-price__description">Цена:</dt>
+            <dd class="product-price__number">990 руб.</dd>
+          </dl>
+          <a class="product__button button" href="form.html">Заказать</a>
+        </div>
       </div>
     </div>
   </section>
@@ -75,37 +80,40 @@
       <h2 class="reviews__title heading heading--level_2">Отзывы</h2>
       <figure class="reviews__quote quote">
         <blockquote class="quote__text">
-          Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!
+          Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных
+          инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более
+          стильными, а также набирают больше лайков!
         </blockquote>
-        <figcaption class="quote__author author">Анастасия Красильникова <span class="author__id author-id">@misssssiskras</span></figcaption>
+        <figcaption class="quote__author author">Анастасия Красильникова <span
+            class="author__id author-id">@misssssiskras</span></figcaption>
       </figure>
       <p class="reviews__buttons button-reviews">
-        <div class="reviews__slider slider-reviews">
-          <button class=" reviews__previous button" type="button">
-            <span class="visually-hidden">Предыдущий отзыв</span>
-          </button>
-          <button class="reviews__next button" type="button">
-            <span class="visually-hidden">Следующий отзыв</span>
-          </button>
-        </div>
-        <a class="reviews__write button" href="#">Написать</a>
+      <div class="reviews__slider slider-reviews">
+        <button class=" reviews__previous button" type="button">
+          <span class="visually-hidden">Предыдущий отзыв</span>
+        </button>
+        <button class="reviews__next button" type="button">
+          <span class="visually-hidden">Следующий отзыв</span>
+        </button>
+      </div>
+      <a class="reviews__write button" href="#">Написать</a>
       </p>
     </div>
   </section>
   <article class="contacts">
     <div class="page__centerer">
-    <h2 class="contacts__title">Контакты</h2>
-    <address class="contacts__address address">
-      <p class="address__email">e-mail:</p>
-      <a class="address__link link-address" href="info@mimimishkashop.ru">info@mimimishkashop.ru</a>
-      <p class="address__title">адрес:</p>
-      <p class="address__content">г. Санкт-Петербургул. Большая Конюшеннаяд. 19/8, офис 101</p>
-    </address>
-    <div class="contacts__map">
+      <h2 class="contacts__title">Контакты</h2>
+      <address class="contacts__address address">
+        <p class="address__email">e-mail:</p>
+        <a class="address__link link-address" href="info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+        <p class="address__title">адрес:</p>
+        <p class="address__content">г. Санкт-Петербургул. Большая Конюшеннаяд. 19/8, офис 101</p>
+      </address>
+      <div class="contacts__map">
 
+      </div>
+      <button class="contacts__button button" type="button">Напишите нам</button>
     </div>
-    <button class="contacts__button button" type="button">Напишите нам</button>
-  </div>
   </article>
 </main>
 

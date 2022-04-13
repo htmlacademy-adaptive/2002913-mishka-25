@@ -2,9 +2,16 @@
   background-image: url("../../img/background-featured-mobile.jpg");
   background-color: var(--main-color, #ffffff);
   background-repeat: no-repeat;
+  object-fit: contain;
+  background-position: center;
   padding-top: 90px;
+  max-width: 1050px;
 }
 
 .products__title {
-  margin: 0 auto 90px;
+  margin: 0 auto 120px;
+}
+
+.products-list {
+  margin: 0;
 }
