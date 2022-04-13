@@ -1,0 +1,46 @@
+.fieldset-grid {
+  padding: 0;
+
+  @media (--not-mobile) {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  @media (--desktop) {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }
+}
+
+.fieldset-grid__title {
+  padding: 0;
+
+
+  @media (--not-mobile) {
+    grid-column: 1 / 2;
+    grid-row: 1 /2;
+    display: block;
+    position: relative;
+    transform: translateY(100%);
+  }
+
+  @media (--desktop) {
+    grid-column: 1 / 2;
+    grid-row: 1 /2;
+  }
+}
+
+.fieldset-grid__content {
+  padding: 0;
+
+
+  @media (--not-mobile) {
+    grid-column: 2 / -1;
+    grid-row: 1 /2;
+  }
+
+  @media (--desktop) {
+    grid-column: 2 / -1;
+    grid-row: 1 /2;
+  }
+}

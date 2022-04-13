@@ -1,5 +1,6 @@
 .form-order {
-  padding: 17px 29px 55px;
+
+  background: var(--main-color);
 }
 
 .form-order__text {
@@ -12,6 +13,7 @@
 
 .form-order__field-color {
   margin-bottom: 33px;
+  background-color: var(--second-color);
 }
 
 .form-order__field-user {
@@ -20,6 +22,7 @@
 
 .form-order__field-contacts {
   margin-bottom: 34.5px;
+  background-color: var(--second-color);
 }
 
 .form-order__field-info {

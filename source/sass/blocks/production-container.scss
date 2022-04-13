@@ -1,6 +1,7 @@
 .production-container {
   display: flex;
   flex-direction: column;
+  min-width: 260px;
 
   @media (--desktop) {
     flex-direction: row;

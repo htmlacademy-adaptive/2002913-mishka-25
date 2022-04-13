@@ -4,4 +4,20 @@
   font-weight: 700;
   text-transform: uppercase;
   color: var(--accent-color);
+
+  @media (--mobile) {
+    display: flex;
+    align-items: center;
+
+    &::after {
+      content: "";
+      background: url("../../img/layer-form-titles.svg");
+      background-position: right;
+      background-repeat: repeat-x;
+      min-width: 200px;
+      height: 1px;
+      display: block;
+      margin-left: 15px;
+    }
+  }
 }
