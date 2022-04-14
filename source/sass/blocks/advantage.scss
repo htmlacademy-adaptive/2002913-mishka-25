@@ -3,11 +3,23 @@
   font-weight: 700;
   font-size: 17px;
   line-height: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+
+  @media (--not-mobile) {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }
 
 .advantage__item {
   margin: 0;
   margin-top: 82px;
+
+  @media (--not-mobile) {
+    width: 50%;
+  }
 
   &:last-child {
     margin-bottom: 58px;

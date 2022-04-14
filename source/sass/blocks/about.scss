@@ -1,0 +1,10 @@
+.about__title {
+  text-align: start;
+}
+
+.about__container {
+  @media (--desktop) {
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+}
