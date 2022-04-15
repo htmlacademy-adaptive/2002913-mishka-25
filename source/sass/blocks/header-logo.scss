@@ -1,3 +1,9 @@
 .header-logo {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (--not-mobile) {
+    display: block;
+  }
 }
