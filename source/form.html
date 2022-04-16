@@ -9,8 +9,8 @@
       <h1 class="order__title heading header-form">Вязание на заказ</h1>
       <form class="order__form form-order" action="https://echo.htmlacademy.ru" method="post">
         <p class="form-order__text text-form">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
-        <fieldset class="form-order__field-type type-form fieldset-border fieldset-grid">
-          <legend class="type-form__title label-form fieldset-grid__title">Тип</legend>
+        <div class="form-order__field-type type-form fieldset-border fieldset-grid" role="group" aria-labelledby="type">
+          <div id="type" class="type-form__title label-form fieldset-grid__title">Тип</div>
           <ul class="type-form__list fieldset-grid__content">
             <li class="type-form__item">
               <label class="type-form__control">
@@ -25,9 +25,9 @@
               </label>
             </li>
           </ul>
-        </fieldset>
-        <fieldset class="form-order__field-color color-form fieldset-border fieldset-grid">
-          <legend class="color-form__title label-form label-form fieldset-grid__title">Цвет</legend>
+        </div>
+        <div role="group" aria-labelledby="color" class="form-order__field-color color-form fieldset-border fieldset-grid">
+          <div id="color" class="color-form__title label-form label-form fieldset-grid__title">Цвет</div>
           <ul class="color-form__list fieldset-grid__content">
             <li class="color-form__item">
               <label class="color-form__control">
@@ -66,9 +66,9 @@
               </label>
             </li>
           </ul>
-        </fieldset>
-        <fieldset class="form-order__field-user user-form fieldset-border fieldset-grid">
-          <legend class="user-form__title label-form fieldset-grid__title">фио</legend>
+        </div>
+        <div role="group" aria-labelledby="user" class="form-order__field-user user-form fieldset-border fieldset-grid">
+          <div id="user" class="user-form__title label-form fieldset-grid__title">фио</div>
           <ul class="user-form__list fieldset-grid__content">
             <li class="user-form__item">
               <label class="user-form__name" for="name">Имя:</label>
@@ -83,9 +83,9 @@
               <input class="user-form__value" type="text" id="middle-name" placeholder="Отчество, если желаете">
             </li>
           </ul>
-        </fieldset>
-        <fieldset class="form-order__field-contacts contact-details fieldset-border">
-          <legend class="contact-details__title"><span class="visually-hidden">Contact details</span></legend>
+        </div>
+        <div role="group" aria-labelledby="contacts" class="form-order__field-contacts contact-details fieldset-border">
+          <div id="contacts" class="contact-details__title"><span class="visually-hidden">Contact details</span></div>
             <ul class="contact-details__list  ">
               <li class="contact-details__item tel-number fieldset-grid">
                 <label class="tel-number__title label-form" for="tel-number">Тел</label>
@@ -96,7 +96,7 @@
                 <input class="email-form__value fieldset-grid__content" type="email" id="email" placeholder="Ваш Emai">
               </li>
             </ul>
-        </fieldset>
+        </div>
         <div class="form-order__field-info info-form fieldset-grid">
           <label class="info-form__title label-form" for="additional-info">Доп</label>
           <textarea class="info-form__text fieldset-grid__content" name="additional-info" id="additional-info" cols="30" rows="8" placeholder="Опишите все ваши пожелания к заказу"></textarea>
