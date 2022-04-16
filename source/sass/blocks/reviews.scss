@@ -7,17 +7,15 @@
     background-position: top left;
     background-repeat: no-repeat;
     z-index: -1;
-    padding: 82px 50px 47px;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
   }
 
   @media (--desktop) {
-    padding-left: 175px;
     max-width: 1052px;
-    margin-left: 49px;
-    margin-right: 49px;
+    padding-left: 175px;
   }
 }
 

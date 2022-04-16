@@ -6,10 +6,17 @@
   padding: 0;
   display: flex;
   flex-direction: column;
+  max-width: 1050px;
 
   @media (--not-mobile) {
     flex-wrap: wrap;
     flex-direction: row;
+  }
+
+  @media (--desktop) {
+    padding-left: 175px;
+    padding-right: 175px;
+    max-width: 1050px;
   }
 }
 

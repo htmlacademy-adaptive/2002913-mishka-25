@@ -7,6 +7,14 @@
 
 .page__centerer {
   margin-inline: 30px;
+
+  @media (--not-mobile) {
+    margin-inline: 50px;
+  }
+
+  @media (--desktop) {
+    margin-inline: auto;
+  }
 }
 
 .visually-hidden {
