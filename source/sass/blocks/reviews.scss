@@ -1,12 +1,22 @@
-.reviews__container {
-  min-width: 260px;
-  max-width: 1050px;
-
+.reviews {
   @media (--not-mobile) {
     background: url("../../img/review-mobile.jpg");
     background-position: top left;
     background-repeat: no-repeat;
     z-index: -1;
+  }
+
+  @media (--desktop) {
+    margin-inline: auto;
+    max-width: 1050px;
+  }
+}
+
+.reviews__container {
+  min-width: 260px;
+  max-width: 1050px;
+
+  @media (--not-mobile) {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

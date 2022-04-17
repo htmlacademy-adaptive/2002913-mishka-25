@@ -16,14 +16,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     max-width: 1052px;
-    margin-left: 49px;
-    margin-right: 49px;
+    margin-inline: auto;
   }
-}
-
-.contacts__container {
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .contacts__title {
