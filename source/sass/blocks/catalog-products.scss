@@ -1,15 +1,15 @@
 .catalog-products {
   min-width: 260px;
-
-  @media (--desktop) {
-    width: 1051px;
-  }
+  max-width: 1050px;
 }
 
 .catalog-products__list {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .card-product__image {
   object-fit: cover;
+  display: block;
 }

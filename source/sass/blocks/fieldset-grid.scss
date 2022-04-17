@@ -42,3 +42,15 @@
     grid-row: 1 /2;
   }
 }
+
+.fieldset-grid__button {
+  @media (--not-mobile) {
+    grid-column: 1 / -1;
+    grid-row: 2 /3;
+  }
+
+  @media (--desktop) {
+    grid-column: 2 / -1;
+    grid-row: 2 / 3;
+  }
+}

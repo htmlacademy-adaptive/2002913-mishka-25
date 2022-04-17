@@ -8,6 +8,8 @@
 
 .page__centerer {
   margin-inline: 30px;
+  min-width: 260px;
+  max-width: 1050px;
 
   @media (--not-mobile) {
     margin-inline: 50px;

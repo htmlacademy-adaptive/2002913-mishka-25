@@ -1,0 +1,12 @@
+.info-form__button {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 260px;
+
+  @media (--not-mobile) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}

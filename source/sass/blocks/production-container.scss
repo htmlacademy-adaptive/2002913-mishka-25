@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   min-width: 260px;
+  max-width: 1050px;
 
   @media (--desktop) {
     flex-direction: row;
-    width: 1050px;
   }
 }
 

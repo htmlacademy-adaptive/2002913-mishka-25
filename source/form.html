@@ -6,27 +6,30 @@
 
 <main>
   <section class="order">
-      <h1 class="order__title heading header-form">Вязание на заказ</h1>
-      <form class="order__form form-order" action="https://echo.htmlacademy.ru" method="post">
-        <p class="form-order__text text-form">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
-        <div class="form-order__field-type type-form fieldset-border fieldset-grid" role="group" aria-labelledby="type">
-          <div id="type" class="type-form__title label-form fieldset-grid__title">Тип</div>
-          <ul class="type-form__list fieldset-grid__content">
-            <li class="type-form__item">
-              <label class="type-form__control">
-                <input class="visually-hidden" type="radio" name="type-product" value="interior" checked>
-                <span class="type-form__control-label type-form__control-label--radio">Аксессуар для интерьера</span>
-              </label>
-            </li>
-            <li class="type-form__item">
-              <label class="type-form__control">
-                <input class="visually-hidden" type="radio" name="type-product" value="toy">
-                <span class="type-form__control-label type-form__control-label--radio">Детская игрушка</span>
-              </label>
-            </li>
-          </ul>
-        </div>
-        <div role="group" aria-labelledby="color" class="form-order__field-color color-form fieldset-border fieldset-grid">
+    <h1 class="order__title heading header-form">Вязание на заказ</h1>
+    <form class="order__form form-order" action="https://echo.htmlacademy.ru" method="post">
+      <p class="form-order__text text-form page__centerer">Мы будем рады воплотить в жизнь ваши пожелания! Заполните
+        простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+      <div class="form-order__field-type type-form fieldset-border fieldset-grid page__centerer" role="group"
+        aria-labelledby="type">
+        <div id="type" class="type-form__title label-form fieldset-grid__title">Тип</div>
+        <ul class="type-form__list fieldset-grid__content">
+          <li class="type-form__item">
+            <label class="type-form__control">
+              <input class="visually-hidden" type="radio" name="type-product" value="interior" checked>
+              <span class="type-form__control-label type-form__control-label--radio">Аксессуар для интерьера</span>
+            </label>
+          </li>
+          <li class="type-form__item">
+            <label class="type-form__control">
+              <input class="visually-hidden" type="radio" name="type-product" value="toy">
+              <span class="type-form__control-label type-form__control-label--radio">Детская игрушка</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div role="group" aria-labelledby="color" class="form-order__field-color color-form">
+        <div class="color-form__container fieldset-grid page__centerer">
           <div id="color" class="color-form__title label-form label-form fieldset-grid__title">Цвет</div>
           <ul class="color-form__list fieldset-grid__content">
             <li class="color-form__item">
@@ -67,45 +70,55 @@
             </li>
           </ul>
         </div>
-        <div role="group" aria-labelledby="user" class="form-order__field-user user-form fieldset-border fieldset-grid">
-          <div id="user" class="user-form__title label-form fieldset-grid__title">фио</div>
-          <ul class="user-form__list fieldset-grid__content">
-            <li class="user-form__item">
-              <label class="user-form__name" for="name">Имя:</label>
-              <input class="user-form__value" type="text" id="name" placeholder="Введите ваше имя">
+      </div>
+      <div role="group" aria-labelledby="user"
+        class="form-order__field-user user-form fieldset-border fieldset-grid page__centerer">
+        <div id="user" class="user-form__title label-form fieldset-grid__title">фио</div>
+        <ul class="user-form__list fieldset-grid__content">
+          <li class="user-form__item">
+            <label class="user-form__name" for="name">Имя:</label>
+            <input class="user-form__value" type="text" id="name" placeholder="Введите ваше имя">
+          </li>
+          <li class="user-form__item">
+            <label class="user-form__name" for="surname">Фамилия:</label>
+            <input class="user-form__value" type="text" id="surname" placeholder="Укажите фамилию">
+          </li>
+          <li class="user-form__item">
+            <label class="user-form__name" for="middle-name">Отчество:</label>
+            <input class="user-form__value" type="text" id="middle-name" placeholder="Отчество, если желаете">
+          </li>
+        </ul>
+      </div>
+      <div role="group" aria-labelledby="contacts" class="form-order__field-contacts contact-details">
+        <div class="contact-details__container page__centerer">
+          <div id="contacts" class="contact-details__title"><span class="visually-hidden">Contact details</span></div>
+          <ul class="contact-details__list  ">
+            <li class="contact-details__item tel-number fieldset-grid">
+              <label class="tel-number__title label-form" for="tel-number">Тел</label>
+              <input class="contact-details__value fieldset-grid__content" type="tel" name="tel-number" id="tel-number"
+                placeholder="+7 ХХХ ХХХ ХХ ХХ">
             </li>
-            <li class="user-form__item">
-              <label class="user-form__name" for="surname">Фамилия:</label>
-              <input class="user-form__value"  type="text" id="surname" placeholder="Укажите фамилию">
-            </li>
-            <li class="user-form__item">
-              <label class="user-form__name" for="middle-name">Отчество:</label>
-              <input class="user-form__value" type="text" id="middle-name" placeholder="Отчество, если желаете">
+            <li class="contact-details__item email-form fieldset-grid">
+              <label class="email-form__title label-form" for="email">e-mail</label>
+              <input class="email-form__value fieldset-grid__content" type="email" id="email" placeholder="Ваш Emai">
             </li>
           </ul>
         </div>
-        <div role="group" aria-labelledby="contacts" class="form-order__field-contacts contact-details fieldset-border">
-          <div id="contacts" class="contact-details__title"><span class="visually-hidden">Contact details</span></div>
-            <ul class="contact-details__list  ">
-              <li class="contact-details__item tel-number fieldset-grid">
-                <label class="tel-number__title label-form" for="tel-number">Тел</label>
-                <input class="contact-details__value fieldset-grid__content" type="tel" name="tel-number" id="tel-number" placeholder="+7 ХХХ ХХХ ХХ ХХ">
-              </li>
-              <li class="contact-details__item email-form fieldset-grid">
-                <label class="email-form__title label-form" for="email">e-mail</label>
-                <input class="email-form__value fieldset-grid__content" type="email" id="email" placeholder="Ваш Emai">
-              </li>
-            </ul>
+      </div>
+      <div class="form-order__field-info info-form fieldset-grid page__centerer">
+        <label class="info-form__title label-form" for="additional-info">Доп</label>
+        <div class="info-form__content fieldset-grid__content">
+          <textarea class="info-form__text" name="additional-info" id="additional-info" cols="30" rows="8"
+            placeholder="Опишите все ваши пожелания к заказу"></textarea>
         </div>
-        <div class="form-order__field-info info-form fieldset-grid">
-          <label class="info-form__title label-form" for="additional-info">Доп</label>
-          <textarea class="info-form__text fieldset-grid__content" name="additional-info" id="additional-info" cols="30" rows="8" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+        <div class="info-form__button fieldset-grid__button">
+          <span class="form-order__required-note required-note"><sup>*</sup>Поля обязательны для заполнения</span>
+          <div class="form-order__button ">
+            <button class="button" type="submit">Отправить заказ</button>
+          </div>
         </div>
-        <span class="form-order__required-note required-note"><sup>*</sup>Поля обязательны для заполнения</span>
-        <div class="form-order__button ">
-          <button class="button" type="submit">Отправить заказ</button>
-        </div>
-      </form>
+      </div>
+    </form>
   </section>
 </main>
 
