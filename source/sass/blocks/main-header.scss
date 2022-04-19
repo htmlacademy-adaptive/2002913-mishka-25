@@ -4,6 +4,7 @@
   display: flex;
   position: relative;
   justify-content: center;
+  min-width: 320px;
 
   @media (--not-mobile) {
     display: flex;
@@ -50,17 +51,12 @@
   }
 }
 
-.main-header__description,
-.main-header__user,
-.main-header__nav {
-  display: none;
 
-  @media (--not-mobile) {
-    display: block;
+.main-header__nav {
+  @media (--mobile) {
+    margin: 0;
   }
-}
 
-.main-header__nav {
   @media (--tablet) {
     order: 3;
     position: absolute;
@@ -81,6 +77,10 @@
 }
 
 .main-header__description {
+  @media (--mobile) {
+    display: none;
+  }
+
   @media (--not-mobile) {
     order: 4;
     position: absolute;

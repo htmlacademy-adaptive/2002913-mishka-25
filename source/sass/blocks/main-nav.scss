@@ -3,4 +3,20 @@
   font-size: 17px;
   line-height: 24px;
   font-weight: 700;
+
+  @media (--mobile) {
+    padding: 0;
+  }
+}
+
+.main-nav__list {
+  @media (--mobile) {
+    margin: 0;
+  }
+}
+
+.main-nav__sublist {
+  @media (--mobile) {
+    display: none;
+  }
 }

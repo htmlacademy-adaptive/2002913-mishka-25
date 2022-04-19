@@ -1,0 +1,15 @@
+.nav-container {
+  @media (--mobile) {
+    position: absolute;
+    bottom: -400%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--main-color);
+    min-width: 320px;
+  }
+
+  @media (--not-mobile) {
+    display: contents;
+  }
+}
