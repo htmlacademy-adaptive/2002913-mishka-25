@@ -37,19 +37,40 @@
   @media (--not-mobile) {
     display: none;
   }
-
-
-  &::before {
-    content: "";
-    background: url("../../img/header-nav-burger.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 20px;
-    height: 14px;
-    display: block;
-    justify-self: end;
-  }
 }
+
+
+.main-header--menu_closed .main-header__toggle::before {
+  content: "";
+  background: url("../../img/header-nav-burger.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 14px;
+  display: block;
+  justify-self: end;
+}
+
+.main-header--menu_opened .main-header__toggle::before {
+  content: "";
+  background: url("../../img/menu-close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 21px;
+  height: 20px;
+  display: block;
+  justify-self: end;
+}
+
+// .main-header--nojs .main-header__toggle {
+//   display: none;
+// }
+
+// .main-header--nojs .nav-container {
+//   position: static;
+//   min-height: 0;
+//   bottom: -400%;
+// }
 
 
 .main-header__nav {
