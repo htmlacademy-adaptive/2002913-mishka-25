@@ -1,4 +1,4 @@
-.button-size {
+.button-size__label {
   font-size: 17px;
   line-height: 16px;
   font-weight: 700;
@@ -10,12 +10,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 
   @media (--mobile) {
     min-width: 82px;
   }
-}
 
-.button-size__label {
-  cursor: pointer;
+  &:hover {
+    outline: 2px solid rgba(68, 68, 68, 0.3);
+    outline-offset: -1px;
+  }
+
+  &:active,
+  &:focus-within {
+    outline: 2px solid #62d1ba;
+    outline-offset: -1px;
+  }
 }
