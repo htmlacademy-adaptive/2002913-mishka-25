@@ -30,9 +30,14 @@
 .main-header__toggle {
   position: absolute;
   border: none;
+  display: block;
   background-color: var(--main-color);
+  width: 21px;
+  height: 20px;
+  z-index: 2;
   right: 30px;
   top: 40%;
+  cursor: pointer;
 
   @media (--not-mobile) {
     display: none;
@@ -49,6 +54,16 @@
   height: 14px;
   display: block;
   justify-self: end;
+
+  @media (--not-mobile) {
+    display: none;
+  }
+}
+
+.main-header--menu_closed .main-header__nav-container {
+  @media (--mobile) {
+    display: none;
+  }
 }
 
 .main-header--menu_opened .main-header__toggle::before {
@@ -60,7 +75,28 @@
   height: 20px;
   display: block;
   justify-self: end;
+
+  @media (--not-mobile) {
+    display: none;
+  }
 }
+
+.main-header--menu_opened .main-header__nav-container {
+  @media (--mobile) {
+    position: absolute;
+    bottom: -400%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--main-color);
+    min-width: 320px;
+  }
+
+  @media (--not-mobile) {
+    display: contents;
+  }
+}
+
 
 // .main-header--nojs .main-header__toggle {
 //   display: none;

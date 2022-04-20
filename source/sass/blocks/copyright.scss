@@ -4,7 +4,10 @@
   font-weight: 700;
   display: flex;
   align-items: center;
-  padding: 22px 0 23px;
+
+  @media (--mobile) {
+    padding: 22px 0 23px;
+  }
 }
 
 .copyright__link {

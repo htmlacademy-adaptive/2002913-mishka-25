@@ -1,5 +1,6 @@
 .main-footer {
   background: var(--second-color);
+  min-width: 320px;
 }
 
 .main-footer__container {
@@ -7,11 +8,12 @@
   flex-direction: column;
   align-items: center;
   padding: 0;
-  max-width: 1050px;
+
 
   @media (--not-mobile) {
     flex-direction: row;
     justify-content: space-between;
+    padding: 51px 0 58px;
   }
 }
 
