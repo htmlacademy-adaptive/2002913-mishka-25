@@ -21,15 +21,42 @@
   font-weight: 700;
   color: #ffffff;
   text-decoration: none;
-  padding: 24px 36px 31px 30px;
-  display: block;
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  cursor: pointer;
 
   &--icon_interior {
     background: var(--accent-color, #63d1bb);
+    --icon: url("../../img/interior.svg");
+    padding: 30px 36px 27px 36px;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 62px;
+      background: #149080;
+      mask: var(--icon);
+      box-sizing: border-box;
+    }
   }
 
   &--icon_toy {
     background: var(--accent-color-dark, #56c3b2);
+    --icon: url("../../img/toy.svg");
+    padding: 32px 35px 27px 36px;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 60px;
+      background: #149080;
+      mask: var(--icon);
+      box-sizing: border-box;
+    }
   }
 }

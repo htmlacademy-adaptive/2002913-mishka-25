@@ -98,15 +98,11 @@
 }
 
 
-// .main-header--nojs .main-header__toggle {
-//   display: none;
-// }
-
-// .main-header--nojs .nav-container {
-//   position: static;
-//   min-height: 0;
-//   bottom: -400%;
-// }
+.main-header--nojs .nav-container {
+  position: static;
+  min-height: 0;
+  bottom: -400%;
+}
 
 
 .main-header__nav {
