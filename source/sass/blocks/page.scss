@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+.page__body {
+  margin: 0;
+}
+
 
 .page__centerer {
   margin-inline: 30px;
@@ -30,15 +34,4 @@
   @media (--desktop) {
     margin-inline: auto;
   }
-}
-
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
-}
-
-.line-decor--bottom {
-  background-image: url("../../img/zigzag-line.svg");
-  background-position: bottom;
-  background-repeat: repeat-x;
 }
