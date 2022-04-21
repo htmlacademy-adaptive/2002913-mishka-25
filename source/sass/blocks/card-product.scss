@@ -12,6 +12,8 @@
 
 .card-product__image {
   order: -1;
+  object-fit: cover;
+  display: block;
 
   @media (--not-mobile) {
     grid-column: 1 / 2;
