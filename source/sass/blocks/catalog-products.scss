@@ -8,3 +8,9 @@
   margin: 0;
   padding: 0;
 }
+
+.catalog-products__item {
+  @media (--mobile) {
+    margin-bottom: 30px;
+  }
+}
