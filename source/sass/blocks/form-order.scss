@@ -1,12 +1,23 @@
 .form-order {
   padding-top: 17px;
-
   background: var(--main-color);
+
+  @media (--not-mobile) {
+    padding-top: 54px;
+  }
+
+  @media (--desktop) {
+    padding-top: 98.5px;
+  }
 }
 
 .form-order__text {
   margin-bottom: 29px;
   margin-top: 0;
+
+  @media (--not-mobile) {
+    margin-bottom: 63px;
+  }
 }
 
 .form-order__field-type {
