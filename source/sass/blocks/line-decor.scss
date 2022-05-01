@@ -5,19 +5,20 @@
   background-repeat: repeat-x;
   background-size: auto;
   position: absolute;
+  display: block;
+  box-sizing: border-box;
   left: 0;
+  right: 0;
   bottom: 0;
   z-index: 2;
   height: 6px;
-  width: 100%;
+
 
   @media (--not-mobile) {
     height: 17px;
-    width: 100%;
   }
 
   @media (--desktop) {
     height: 23px;
-    width: 100%;
   }
 }
