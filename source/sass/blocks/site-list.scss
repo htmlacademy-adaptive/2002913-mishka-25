@@ -7,6 +7,11 @@
     max-width: 60%;
     flex-wrap: wrap;
     margin: 0;
+    z-index: 2;
+  }
+
+  @media (--desktop) {
+    margin-left: 0;
   }
 }
 
@@ -39,6 +44,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (--not-mobile) {
+    font-size: 15px;
+    line-height: 1.6;
+  }
 
   &:hover {
     color: rgba(0, 0, 0, 0.6);

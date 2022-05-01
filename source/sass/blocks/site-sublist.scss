@@ -1,6 +1,7 @@
 .site-sublist {
   list-style-type: none;
   padding: 0;
+  z-index: 2;
 
   @media (--desktop) {
     display: flex;
