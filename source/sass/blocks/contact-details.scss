@@ -1,3 +1,7 @@
+.contact-details__container {
+  padding: 50px 0;
+}
+
 .contact-details__list {
   list-style-type: none;
   padding: 0;
@@ -7,9 +11,13 @@
   @media (--mobile) {
     display: flex;
     flex-direction: column;
+  }
 
-    &:not(:last-child) {
-      margin-bottom: 34.5px;
+  &:not(:last-child) {
+    margin-bottom: 34.5px;
+
+    @media (--not-mobile) {
+      margin-bottom: 24px;
     }
   }
 }
