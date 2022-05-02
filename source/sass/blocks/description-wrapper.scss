@@ -5,6 +5,7 @@
   align-items: flex-start;
   border: 1px solid #ececec;
   box-sizing: border-box;
+  flex-grow: 1;
 
   @media (--mobile) {
     padding: 0 27px;
