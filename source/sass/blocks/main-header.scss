@@ -4,6 +4,7 @@
   display: flex;
   position: relative;
   justify-content: center;
+  z-index: 2;
 
 
   @media (--not-mobile) {
