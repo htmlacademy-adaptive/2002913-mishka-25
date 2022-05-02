@@ -7,9 +7,19 @@
 }
 
 .about__container {
+  @media (--mobile) {
+    padding-top: 31px;
+    padding-bottom: 58px;
+  }
+
   @media (--desktop) {
     padding-left: 175px;
     padding-right: 175px;
     max-width: 1050px;
   }
+}
+
+
+.about__list {
+  margin: 0;
 }
