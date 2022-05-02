@@ -20,10 +20,14 @@
       display: contents;
     }
 
-    &--desktop_off {
-      @media (--desktop) {
-        display: contents;
-      }
+    @media (--tablet) {
+      display: contents;
+    }
+  }
+
+  &--desktop_off {
+    @media (--desktop) {
+      display: contents;
     }
   }
 
