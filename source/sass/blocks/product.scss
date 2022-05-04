@@ -111,8 +111,7 @@
   }
 }
 
-.product__image {
-  margin: 0;
+.product__image-wrapper {
 
   display: block;
 
@@ -123,7 +122,7 @@
   @media (--not-mobile) {
     grid-column: 3 / -1;
     grid-row: 2 / 4;
-    background-size: contain;
+
     margin-left: 42px;
   }
 
@@ -131,6 +130,13 @@
     grid-column: 4 / 7;
     grid-row: 1 / 4;
   }
+}
+
+.product__image {
+  margin: 0;
+  background-size: contain;
+  width: 100%;
+  height: auto;
 }
 
 
