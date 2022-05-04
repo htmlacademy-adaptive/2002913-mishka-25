@@ -12,13 +12,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1050px;
+    min-width: 768px;
     position: relative;
   }
 
   @media (--desktop) {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
+    max-width: 1050px;
   }
 }
 
