@@ -12,3 +12,30 @@
   padding-top: 22.5px;
   padding-bottom: 26.5px;
 }
+
+.price-of-item__button {
+  --icon: url("../../icons/sprite.svg#basket");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px 22px;
+  border: none;
+  background-color: var(--main-color);
+
+  &:hover::before {
+    background: #46c1ae;
+  }
+
+  &:active::before {
+    background: rgba(70, 193, 174, 0.3);
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    mask: var(--icon);
+    background: rgba(0, 0, 0, 0.2);
+    width: 22px;
+    height: 22px;
+    box-sizing: border-box;
+  }
+}

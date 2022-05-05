@@ -6,11 +6,34 @@
 .preview__image {
   width: 100%;
   display: block;
-  position: relative;
 }
 
 .preview__button {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  background: inherit;
+  border: none;
+
+  &:hover::before {
+    transform: scale(1.2);
+  }
+
+  &:active::before {
+    transform: scale(0.8);
+  }
+
+  &::before {
+    content: "";
+    background: url("../../icons/sprite.svg#video");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    display: block;
+    width: 101px;
+    height: 77px;
+    box-sizing: border-box;
+  }
 }
