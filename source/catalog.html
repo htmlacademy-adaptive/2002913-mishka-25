@@ -26,7 +26,8 @@
                 корзину</span></button>
           </p>
         </div>
-        <a class="card-product__image" href="#">{% include "./templates/picture.twig" with {name: "catalog/bunny", class: ""} %}</a>
+          <a class="card-product__image" href="#">{% include "./templates/picture.twig" with {name: "catalog/bunny",
+            class: "image-content"} %}</a>
       </li>
       <li class="catalog-products__item card-product">
         <div class="description-wrapper">
@@ -45,7 +46,8 @@
                 корзину</span></button>
           </p>
         </div>
-        <a class="card-product__image" href="#">{% include "./templates/picture.twig" with {name: "catalog/laundry-basket", class: ""} %}</a>
+        <a class="card-product__image" href="#">{% include "./templates/picture.twig" with {name:
+          "catalog/laundry-basket", class: "image-content"} %}</a>
       </li>
       <li class="catalog-products__item card-product">
         <div class="description-wrapper">
@@ -64,19 +66,21 @@
                 корзину</span></button>
           </p>
         </div>
-        <a class="card-product__image" href="#">{% include "./templates/picture.twig" with {name: "catalog/toy-basket", class: ""} %}</a>
+        <a class="card-product__image" href="#">{% include "./templates/picture.twig" with {name: "catalog/toy-basket",
+          class: "image-content"} %}</a>
       </li>
     </ul>
   </section>
   <article class="catalog-page__production production">
     <div class="production__container production-container page__centerer">
-        <h2 class="production-container__title heading heading--level_3">Процесс производства</h2>
-        <span class="production-container__description video-description">По просьбам наших любимых фолловеров мы сняли для вас
-          подробное видео о
-          том, как появляются наши товары.</span>
-        <a class="production-container__button button button--size_wide" href="#">Сделать заказ</a>
+      <h2 class="production-container__title heading heading--level_3">Процесс производства</h2>
+      <span class="production-container__description video-description">По просьбам наших любимых фолловеров мы сняли
+        для вас
+        подробное видео о
+        том, как появляются наши товары.</span>
+      <a class="production-container__button button button--size_wide" href="#">Сделать заказ</a>
       <div class="production-container__video preview">
-        {% include "./templates/picture.twig" with {name: "catalog/video", class: "preview__image"} %}
+        {% include "./templates/picture.twig" with {name: "catalog/video", class: "preview__image image-content"} %}
         <button class="preview__button" type="button"></button>
       </div>
     </div>
