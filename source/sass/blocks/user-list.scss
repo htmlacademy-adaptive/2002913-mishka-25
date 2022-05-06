@@ -36,10 +36,12 @@
 
   &:hover {
     color: rgba(0, 0, 0, 0.6);
+    transition: all 200ms ease-in;
   }
 
   &:active {
     color: rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-in;
   }
 
   @media (--not-mobile) {
@@ -73,12 +75,12 @@
     }
 
     &:hover::before {
-
+      transition: all 200ms ease-in;
       background: #63d1bb;
     }
 
     &:active::before {
-
+      transition: all 200ms ease-in;
       background: rgba(99, 209, 187, 0.3);
     }
   }
@@ -100,15 +102,16 @@
       box-sizing: border-box;
       margin-right: 31px;
       margin-left: 31px;
+      transition: all 200ms ease-in;
     }
 
     &:hover::before {
-
+      transition: all 200ms ease-in;
       background: #63d1bb;
     }
 
     &:active::before {
-
+      transition: all 200ms ease-in;
       background: rgba(99, 209, 187, 0.3);
     }
   }

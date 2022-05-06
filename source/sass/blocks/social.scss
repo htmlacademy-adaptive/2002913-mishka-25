@@ -38,10 +38,12 @@
 
   &:hover::before {
     background: rgba(99, 209, 187);
+    transition: all 200ms ease-in;
   }
 
   &:active::before {
     background: rgba(99, 209, 187, 0.3);
+    transition: all 200ms ease-in;
   }
 
   &::before {
@@ -52,5 +54,6 @@
     background: #231f20;
     mask: var(--icon);
     box-sizing: border-box;
+    transition: all 200ms ease-in;
   }
 }

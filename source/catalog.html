@@ -26,8 +26,8 @@
                 корзину</span></button>
           </p>
         </div>
-          <a class="card-product__image" href="#">{% include "./templates/picture.twig" with {name: "catalog/bunny",
-            class: "image-content"} %}</a>
+        <a class="card-product__image" href="#">{% include "./templates/picture.twig" with {name: "catalog/bunny",
+          class: "image-content"} %}</a>
       </li>
       <li class="catalog-products__item card-product">
         <div class="description-wrapper">
@@ -80,7 +80,9 @@
         том, как появляются наши товары.</span>
       <a class="production-container__button button button--size_wide" href="#">Сделать заказ</a>
       <div class="production-container__video preview">
-        {% include "./templates/picture.twig" with {name: "catalog/video", class: "preview__image image-content"} %}
+        <div class="preview__image">
+          {% include "./templates/picture.twig" with {name: "catalog/video", class: "image-content"} %}
+        </div>
         <button class="preview__button" type="button"></button>
       </div>
     </div>

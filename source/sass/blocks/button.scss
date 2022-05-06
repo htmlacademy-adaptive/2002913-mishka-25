@@ -18,10 +18,12 @@
   &:hover {
     color: #ffffff;
     background-color: #444444;
+    transition: all 200ms ease-in;
   }
 
   &:active {
     color: rgba(255, 255, 255, 0.3);
+    transition: all 200ms ease-in;
   }
 
 

@@ -1,6 +1,6 @@
 .line-decor--bottom::after {
   content: "";
-  background-image: url("../../img/zigzag-line.svg");
+  background-image: url("../../icons/sprite.svg#zigzag-line");
   background-repeat: repeat-x;
   background-size: auto;
   position: absolute;
@@ -10,16 +10,16 @@
   right: 0;
   z-index: 2;
   height: 6px;
-  margin-top: 36px;
+  margin-top: 45px;
 
 
   @media (--not-mobile) {
     height: 17px;
-    margin-top: 52px;
+    margin-top: 85px;
   }
 
   @media (--desktop) {
     height: 23px;
-    margin-top: 73px;
+    margin-top: 96px;
   }
 }

@@ -15,13 +15,16 @@
   transform: translate(-50%, -50%);
   background: inherit;
   border: none;
+  transition: all 200ms ease-in;
 
   &:hover::before {
     transform: scale(1.2);
+    transition: all 200ms ease-in;
   }
 
   &:active::before {
     transform: scale(0.8);
+    transition: all 200ms ease-in;
   }
 
   &::before {

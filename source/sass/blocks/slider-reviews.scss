@@ -35,10 +35,12 @@
 
   &:hover::after {
     background: rgba(0, 0, 0, 0.6);
+    transition: all 200ms ease-in;
   }
 
   &:active::after {
     background: rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-in;
   }
 
   &::after {
@@ -51,6 +53,7 @@
     transform: rotate(180deg);
     box-sizing: border-box;
     cursor: pointer;
+    transition: all 200ms ease-in;
   }
 }
 
@@ -63,6 +66,7 @@
   background-color: var(--main-color);
   border: none;
   box-sizing: border-box;
+  transition: all 200ms ease-in;
 
   @media (--mobile) {
     border: 1px solid #ececec;
@@ -78,10 +82,12 @@
 
   &:hover::after {
     background: rgba(0, 0, 0, 0.6);
+    transition: all 200ms ease-in;
   }
 
   &:active::after {
     background: rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-in;
   }
 
   &::after {
@@ -92,5 +98,6 @@
     background: #000000;
     mask: var(--icon);
     box-sizing: border-box;
+    transition: all 200ms ease-in;
   }
 }

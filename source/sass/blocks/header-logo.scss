@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   justify-self: center;
+  transition: all 200ms ease-in;
 
 
   img {
@@ -18,10 +19,12 @@
 
     &:hover {
       opacity: 60%;
+      transition: all 200ms ease-in;
     }
 
     &:active {
       opacity: 30%;
+      transition: all 200ms ease-in;
     }
   }
 }
