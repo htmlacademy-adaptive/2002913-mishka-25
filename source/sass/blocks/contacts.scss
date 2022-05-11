@@ -90,6 +90,7 @@
 .contacts__map {
   display: grid;
   grid-template-columns: 1fr;
+  margin-bottom: 42px;
 
   @media (--not-mobile) {
     grid-column: 1 / -1;

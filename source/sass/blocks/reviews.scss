@@ -75,6 +75,8 @@
 }
 
 .reviews__slider {
+  margin-bottom: 38px;
+
   @media (--not-mobile) {
     grid-area: 3 / 2 / 4 / -1;
     position: relative;
