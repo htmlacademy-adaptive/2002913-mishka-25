@@ -212,11 +212,11 @@
 }
 
 .check__control--type_checkbox {
-  --control-border: url("../../img/check-checkbox.svg");
-  --control-tick: url("../../img/check-boxtick.svg");
+  --control-border: url("../../icons/sprite.svg#check-checkbox");
+  --control-tick: url("../../icons/sprite.svg#check-boxtick");
 }
 
 .check__control--type_radio {
-  --control-border: url("../../img/check-radio.svg");
-  --control-tick: url("../../img/check-radiotick.svg");
+  --control-border: url("../../icons/sprite.svg#check-radio");
+  --control-tick: url("../../icons/sprite.svg#check-radiotick");
 }

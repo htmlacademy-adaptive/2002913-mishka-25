@@ -5,6 +5,18 @@
 .info-form__text {
   width: 100%;
   margin-bottom: 17px;
+  resize: vertical;
+  border: 2px solid rgba(68, 68, 68, 1);
+  padding: 17px;
+
+  &:hover {
+    border: 2px solid rgba(98, 209, 186, 1);
+  }
+
+  &:focus-visible {
+    outline: 2px solid rgba(98, 209, 186, 1);
+    border: 2px solid rgba(98, 209, 186, 1);
+  }
 }
 
 .info-form__button {

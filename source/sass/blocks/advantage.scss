@@ -40,116 +40,50 @@
 
 
   &--icon_flower {
-    --icon: url("../../img/flower.svg");
-    margin-bottom: 30px;
-
-    @media (--not-mobile) {
-      margin-bottom: 57px;
-    }
-
-    &::before {
-      width: 33px;
-      height: 38px;
-      margin-bottom: 16px;
-      transform: translateX(8px);
-
-      @media (--not-mobile) {
-        margin-bottom: 18px;
-      }
-    }
+    --icon: url("../../icons/sprite.svg#flower");
   }
 
   &--icon_clew {
-    --icon: url("../../img/clew.svg");
-    margin-bottom: 33px;
-
-    @media (--not-mobile) {
-      margin-bottom: 59px;
-    }
-
-    &::before {
-      width: 35px;
-      height: 34px;
-      margin-bottom: 17px;
-      transform: translateX(3px);
-
-      @media (--not-mobile) {
-        margin-bottom: 19px;
-      }
-    }
+    --icon: url("../../icons/sprite.svg#clew");
   }
 
   &--icon_banknote {
-    --icon: url("../../img/banknote.svg");
-    margin-bottom: 35px;
-
-    @media (--not-mobile) {
-      margin-bottom: 63px;
-    }
-
-    &::before {
-      width: 47px;
-      height: 27px;
-      margin-bottom: 26px;
-    }
+    --icon: url("../../icons/sprite.svg#banknote");
   }
 
   &--icon_rocket {
-    --icon: url("../../img/rocket.svg");
-    margin-bottom: 32px;
-
-    @media (--not-mobile) {
-      margin-bottom: 58px;
-    }
-
-    &::before {
-      width: 55px;
-      height: 23px;
-      margin-bottom: 26px;
-      transform: translateX(-6px);
-
-      @media (--not-mobile) {
-        margin-bottom: 28px;
-      }
-    }
+    --icon: url("../../icons/sprite.svg#rocket");
   }
 
   &--icon_heart {
-    --icon: url("../../img/heart.svg");
-    margin-bottom: 32px;
-
-    @media (--not-mobile) {
-      margin-bottom: 0;
-    }
-
-    &::before {
-      width: 34px;
-      height: 27px;
-      margin-bottom: 21px;
-      transform: translateX(7px);
-    }
+    --icon: url("../../icons/sprite.svg#heart");
   }
 
   &--icon_gift-wrap {
-    --icon: url("../../img/gift-wrap.svg");
-
-    &::before {
-      width: 33px;
-      height: 32px;
-      margin-bottom: 20px;
-      transform: translateX(3px);
-
-      @media (--not-mobile) {
-        margin-bottom: 21px;
-      }
-    }
+    --icon: url("../../icons/sprite.svg#gift-wrap");
   }
 
   &::before {
     content: "";
     display: block;
-    background: #63d1bb;
-    mask: var(--icon) no-repeat;
-    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    mask: var(--icon);
+    background-color: #63d1bb;
+    background-size: 60px;
+    background-position: center;
+    transform: translateX(-5px);
+
+    @media (--not-mobile) {
+      margin-top: 46px;
+      margin-bottom: 4px;
+    }
+
+    @media (--not-mobile) {
+      margin-top: 44px;
+      margin-bottom: 6px;
+    }
   }
 }

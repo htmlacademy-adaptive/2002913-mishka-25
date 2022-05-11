@@ -16,13 +16,15 @@
         <ul class="type-form__list fieldset-grid__content">
           <li class="type-form__item">
             <label class="type-form__control check check--radio">
-              <input class="check__control check__control--kind_checkable check__control--type_radio" type="radio" name="type-product" value="interior" >
+              <input class="check__control check__control--kind_checkable check__control--type_radio" type="radio"
+                name="type-product" value="interior">
               Аксессуар для интерьера
             </label>
           </li>
           <li class="type-form__item">
             <label class="type-form__control check check--radio">
-              <input class="check__control check__control--kind_checkable check__control--type_radio" type="radio" name="type-product" value="toy"checked>
+              <input class="check__control check__control--kind_checkable check__control--type_radio" type="radio"
+                name="type-product" value="toy" checked>
               Детская игрушка
             </label>
           </li>
@@ -34,38 +36,43 @@
           <ul class="color-form__list fieldset-grid__content">
             <li class="color-form__item">
               <label class="color-form__control check check--box">
-                <input class="check__control check__control--box_checkable check__control--type_checkbox" type="checkbox" name="color-product" value="white" checked>
+                <input class="check__control check__control--box_checkable check__control--type_checkbox"
+                  type="checkbox" name="color-product" value="white" checked>
                 Белый
               </label>
             </li>
             <li class="color-form__item">
               <label class="color-form__control check check--box">
-                <input class="check__control check__control--box_checkable check__control--type_checkbox" type="checkbox"
-                  name="color-product" value="gray" checked>
+                <input class="check__control check__control--box_checkable check__control--type_checkbox"
+                  type="checkbox" name="color-product" value="gray" checked>
                 Серый
               </label>
             </li>
             <li class="color-form__item">
               <label class="color-form__control check check--box">
-                <input class="check__control check__control--box_checkable check__control--type_checkbox" type="checkbox" name="color-product" value="tiffany" disabled checked>
+                <input class="check__control check__control--box_checkable check__control--type_checkbox"
+                  type="checkbox" name="color-product" value="tiffany" disabled checked>
                 Тиффани
               </label>
             </li>
             <li class="color-form__item">
               <label class="color-form__control check check--box">
-                <input class="check__control check__control--box_checkable check__control--type_checkbox" type="checkbox" name="color-product" value="black">
+                <input class="check__control check__control--box_checkable check__control--type_checkbox"
+                  type="checkbox" name="color-product" value="black">
                 Чёрный
               </label>
             </li>
             <li class="color-form__item">
               <label class="color-form__control check check--box">
-                <input class="check__control check__control--box_checkable check__control--type_checkbox" type="checkbox" name="color-product" value="pink">
+                <input class="check__control check__control--box_checkable check__control--type_checkbox"
+                  type="checkbox" name="color-product" value="pink">
                 Розовый
               </label>
             </li>
             <li class="color-form__item">
               <label class="color-form__control check check--box">
-                <input class="check__control check__control--box_checkable check__control--type_checkbox" type="checkbox" name="color-product" value="orange">
+                <input class="check__control check__control--box_checkable check__control--type_checkbox"
+                  type="checkbox" name="color-product" value="orange">
                 Оранжевый
               </label>
             </li>
@@ -96,14 +103,20 @@
           <ul class="contact-details__list  ">
             <li class="contact-details__item tel-number fieldset-grid">
               <label class="contact-details__name tel-number__title label-form" for="tel-number">Тел</label>
-              <input class="contact-details__value fieldset-grid__content fieldset-grid__content--short" type="tel"
-                name="tel-number" id="tel-number" placeholder="+7 ХХХ ХХХ ХХ ХХ">
+              <div class="contact-details__wrapper fieldset-grid__content fieldset-grid__content--short">
+                <input class="contact-details__value" type="tel"
+                  name="tel-number" id="tel-number" placeholder="+7 ХХХ ХХХ ХХ ХХ">
+                <span class="contact-details__decor-phone"></span>
+              </div>
             </li>
             <li class="contact-details__item email-form fieldset-grid">
               <label class="contact-details__name email-form__title label-form" for="email">e&#8209;mail</label>
-              <input
-                class=" contact-details__value email-form__value fieldset-grid__content fieldset-grid__content--short"
-                type="email" id="email" placeholder="Ваш Emai">
+              <div class="contact-details__wrapper fieldset-grid__content fieldset-grid__content--short">
+                <input
+                  class=" contact-details__value email-form__value"
+                  type="email" id="email" placeholder="Ваш Emai">
+                <span class="contact-details__decor-email"></span>
+              </div>
             </li>
           </ul>
         </div>
