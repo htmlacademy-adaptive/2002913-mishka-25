@@ -8,7 +8,12 @@
   margin: 0;
 }
 
+.product-price__description {
+  word-wrap: break-word;
+}
+
 .product-price__number {
   margin: 0;
   margin-left: 5px;
+  word-wrap: break-word;
 }

@@ -126,5 +126,6 @@
     background: rgba(20, 144, 128, 0.5);
     mask: var(--icon) no-repeat;
     transition: all 200ms ease-in;
+    min-width: 62px;
   }
 }
