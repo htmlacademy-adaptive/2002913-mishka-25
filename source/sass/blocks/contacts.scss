@@ -39,9 +39,8 @@
     margin-bottom: 41px;
     margin-left: 50px;
     position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    flex-grow: 1;
+    display: flex;
+    justify-self: auto;
     justify-content: space-between;
     align-items: flex-end;
     box-sizing: border-box;
