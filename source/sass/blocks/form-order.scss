@@ -3,7 +3,7 @@
   background: var(--main-color);
 
   @media (--not-mobile) {
-    padding-top: 54px;
+    padding-top: 64px;
   }
 
   @media (--desktop) {
@@ -22,6 +22,10 @@
 
 .form-order__field-type {
   margin-bottom: 31px;
+
+  @media (--not-mobile) {
+    margin-bottom: 49px;
+  }
 }
 
 .form-order__field-color {

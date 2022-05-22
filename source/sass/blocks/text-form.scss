@@ -5,4 +5,9 @@
   color: #444444;
   padding: 0;
   letter-spacing: 0.3px;
+
+  @media (--not-mobile) {
+    font-size: 17px;
+    line-height: 30px;
+  }
 }

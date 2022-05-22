@@ -9,12 +9,16 @@
   @media (--mobile) {
     margin-bottom: 35px;
   }
+
+  @media (--not-mobile) {
+    margin-top: 20px;
+  }
 }
 
 .type-form__item:not(:last-child) {
   margin-bottom: 9px;
 
   @media (--not-mobile) {
-    margin-bottom: 58px;
+    margin-bottom: 24px;
   }
 }

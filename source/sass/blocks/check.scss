@@ -74,6 +74,10 @@
 
   &--radio {
     gap: 21px;
+
+    @media (--not-mobile) {
+      gap: 28px;
+    }
   }
 
   &--box {
