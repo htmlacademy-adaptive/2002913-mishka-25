@@ -20,6 +20,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     margin-inline: auto;
+    padding-top: 93px;
+    padding-bottom: 46px;
   }
 }
 
@@ -67,9 +69,9 @@
   @media (--desktop) {
     grid-column: 2 / 4;
     grid-row: 1 / 2;
-    margin-top: 85px;
+    margin-top: 82px;
     margin-bottom: 35px;
-    margin-left: 0;
+    margin-left: 31px;
   }
 }
 
@@ -154,5 +156,13 @@
     box-sizing: border-box;
     margin-left: 28px;
     margin-top: 14px;
+  }
+
+  @media (--desktop) {
+    padding: 14px 2px;
+    width: 230px;
+    box-sizing: border-box;
+    margin-left: 28px;
+    margin-top: 0;
   }
 }

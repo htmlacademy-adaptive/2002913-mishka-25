@@ -17,4 +17,9 @@
   @media (--not-mobile) {
     margin-bottom: 61px;
   }
+
+  @media (--desktop) {
+    margin-bottom: 40px;
+    padding-right: 50px;
+  }
 }
