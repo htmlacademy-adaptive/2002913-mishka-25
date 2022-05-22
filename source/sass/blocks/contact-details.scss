@@ -63,7 +63,7 @@
   width: 32px;
   height: 32px;
   mask: var(--icon);
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.2);
 
   :focus-within {
     background: #62d1ba;
@@ -76,17 +76,19 @@
   width: 32px;
   height: 32px;
   mask: var(--icon);
-  background: #000000;
+  background: rgba(0, 0, 0, 0.2);
 
   :focus-within {
     background: #62d1ba;
   }
 }
 
-.contact-details__value:active + .contact-details__decor-phone {
+.contact-details__value:active + .contact-details__decor-phone,
+.contact-details__value:hover + .contact-details__decor-phone {
   background: #62d1ba;
 }
 
-.contact-details__value:active + .contact-details__decor-email {
+.contact-details__value:active + .contact-details__decor-email,
+.contact-details__value:hover + .contact-details__decor-email {
   background: #62d1ba;
 }

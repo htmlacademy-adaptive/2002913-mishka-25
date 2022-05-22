@@ -202,11 +202,11 @@
     transition: 120ms transform ease-in-out;
     mask: var(--control-tick) no-repeat center;
     background: var(--control-color, currentcolor);
-    inline-size: 23.2px;
+    inline-size: 38px;
     position: absolute;
 
     @media (--not-mobile) {
-      inline-size: 31.8px;
+      inline-size: 52px;
     }
   }
 }
