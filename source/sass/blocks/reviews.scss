@@ -1,5 +1,6 @@
 .reviews {
   position: relative;
+  height: auto;
 
 
   @media (--not-mobile) {
@@ -21,6 +22,7 @@
     margin-inline: auto;
     max-width: 1050px;
     padding-bottom: 67px;
+    height: auto;
   }
 }
 
@@ -53,6 +55,7 @@
   margin: 0;
   margin-bottom: 14px;
   text-align: start;
+  word-break: break-word;
 
   @media (--not-mobile) {
     grid-area: 1 / 1 / 2 / 2;
