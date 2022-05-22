@@ -33,6 +33,12 @@
   cursor: pointer;
   padding: 18px 34px 23px 30px;
 
+  &:hover {
+    margin-top: -5px;
+    padding-bottom: 28px;
+    transition: all 200ms ease-in;
+  }
+
   @media (--not-mobile) {
     font-size: 20px;
     line-height: 30px;
@@ -40,7 +46,7 @@
 
     &:hover {
       margin-top: -5px;
-      padding-bottom: 32px;
+      padding-bottom: 39px;
       transition: all 200ms ease-in;
     }
   }
@@ -49,13 +55,12 @@
     font-size: 20px;
     line-height: 30px;
     padding: 30px 35px 27px 37px;
-  }
 
-
-  &:hover {
-    margin-top: -5px;
-    padding-bottom: 23px;
-    transition: all 200ms ease-in;
+    &:hover {
+      margin-top: -5px;
+      padding-bottom: 32px;
+      transition: all 200ms ease-in;
+    }
   }
 
 
