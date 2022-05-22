@@ -2,6 +2,11 @@
   list-style-type: none;
   padding: 0;
 
+  @media (--mobile) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   @media (--tablet) {
     display: flex;
     flex-wrap: wrap;
@@ -42,9 +47,14 @@
 }
 
 .site-list__item {
-  max-width: 234px;
+  @media (--mobile) {
+    box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
+    width: 100%;
+  }
 
   @media (--desktop) {
+    max-width: 234px;
+
     &:nth-child(2n+1) {
       border-right: 1px solid rgba(0, 0, 0, 0.1);
     }
@@ -58,7 +68,6 @@
     padding-top: 28.5px;
     padding-bottom: 26.5px;
     padding-left: 76px;
-    box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
     cursor: pointer;
   }
 

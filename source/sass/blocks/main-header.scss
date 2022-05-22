@@ -2,7 +2,7 @@
   background: var(--main-color, #ffffff);
   padding-top: 22px;
   padding-bottom: 22px;
-  display: flex;
+  display: grid;
   justify-content: center;
   z-index: 2;
 
@@ -98,7 +98,8 @@
 .main-header--menu_opened .main-header__nav-container {
   @media (--mobile) {
     position: absolute;
-    bottom: -378%;
+    top: 83px;
+    right: 0;
     left: 0;
     width: 100%;
     background: var(--main-color);
@@ -113,9 +114,6 @@
 
 .main-header--nojs .nav-container {
   position: static;
-  min-height: 0;
-  bottom: -400%;
-  left: 0;
 }
 
 
