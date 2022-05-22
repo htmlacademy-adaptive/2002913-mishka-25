@@ -1,7 +1,8 @@
 .nav-container {
   @media (--mobile) {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     width: 100%;
     background: var(--main-color);
     min-width: 320px;

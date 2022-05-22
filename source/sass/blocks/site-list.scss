@@ -35,8 +35,19 @@
   @media (--desktop) {
     margin: 0;
     margin-left: 0;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+  }
+}
+
+.site-list__item {
+  max-width: 234px;
+
+  @media (--desktop) {
+    &:nth-child(2n+1) {
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
   }
 }
 
@@ -70,7 +81,7 @@
   text-decoration: none;
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   letter-spacing: 0.02rem;
 
@@ -82,7 +93,6 @@
   @media (--desktop) {
     font-size: 17px;
     line-height: 24px;
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   &:hover {

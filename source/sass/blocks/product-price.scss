@@ -6,6 +6,10 @@
   display: flex;
   justify-content: center;
   margin: 0;
+
+  @media (--desktop) {
+    font-size: 20px;
+  }
 }
 
 .product-price__description {
