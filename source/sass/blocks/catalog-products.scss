@@ -3,7 +3,7 @@
   max-width: 1050px;
 
   @media (--mobile) {
-    padding-top: 30px;
+    padding-top: 25px;
   }
 
   @media (--not-mobile) {
@@ -23,6 +23,6 @@
 
 .catalog-products__item {
   @media (--mobile) {
-    margin-bottom: 30px;
+    margin-bottom: 27px;
   }
 }
