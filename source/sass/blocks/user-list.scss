@@ -51,7 +51,7 @@
 
 
   &--icon_search {
-    --icon: url("../../img/search.svg");
+    --icon: url("../../icons/sprite.svg#search");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -66,8 +66,8 @@
     &::before {
       content: "";
       display: block;
-      width: 18px;
-      height: 18px;
+      width: 22px;
+      height: 22px;
       background: #000000;
       mask: var(--icon);
       margin-right: 31px;
@@ -86,7 +86,7 @@
   }
 
   &--icon_basket {
-    --icon: url("../../img/basket.svg");
+    --icon: url("../../icons/sprite.svg#basket");
     background-repeat: no-repeat;
     background-position: center;
     border-left: 1px solid rgba(0, 0, 0, 0.1);
@@ -95,10 +95,10 @@
     &::before {
       content: "";
       display: block;
-      width: 21px;
-      height: 18px;
+      width: 22px;
+      height: 22px;
       background: #000000;
-      mask: var(--icon);
+      mask: var(--icon) no-repeat;
       box-sizing: border-box;
       margin-right: 31px;
       margin-left: 31px;

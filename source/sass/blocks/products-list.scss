@@ -31,25 +31,39 @@
   align-items: center;
   width: auto;
   cursor: pointer;
+  padding: 23px 34px 18px 30px;
 
   @media (--not-mobile) {
     font-size: 20px;
     line-height: 30px;
+    padding: 30px 35px 27px 36px;
+
+    &:hover {
+      margin-top: -5px;
+      padding-bottom: 32px;
+      transition: all 200ms ease-in;
+    }
   }
+
+  @media (--desktop) {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 30px 35px 27px 37px;
+  }
+
 
   &:hover {
     margin-top: -5px;
+    padding-bottom: 23px;
     transition: all 200ms ease-in;
   }
 
 
   &--icon_interior {
     background: var(--accent-color, #63d1bb);
-    --icon: url("../../img/interior.svg");
-    padding: 23px 36px 18px 30px;
+    --icon: url("../../icons/sprite.svg#interior");
 
     &:hover {
-      padding-bottom: 23px;
       background: #59d5bc;
       transition: all 200ms ease-in;
     }
@@ -61,44 +75,25 @@
 
 
     @media (--not-mobile) {
-      padding: 30px 36px 27px 36px;
-
       &:hover {
-        padding-bottom: 32px;
         background: #59d5bc;
         transition: all 200ms ease-in;
       }
     }
 
     @media (--desktop) {
-      padding: 31px 36px 27px 37px;
-
       &:hover {
-        padding-bottom: 32px;
         background: #59d5bc;
         transition: all 200ms ease-in;
       }
-    }
-
-    &::after {
-      content: "";
-      display: block;
-      width: 40px;
-      height: 62px;
-      background: rgba(20, 144, 128, 0.5);
-      mask: var(--icon);
-      box-sizing: border-box;
-      transition: all 200ms ease-in;
     }
   }
 
   &--icon_toy {
     background: var(--accent-color-dark, #56c3b2);
-    --icon: url("../../img/toy.svg");
-    padding: 21px 27px 22px 30px;
+    --icon: url("../../icons/sprite.svg#toy");
 
     &:hover {
-      padding-bottom: 27px;
       background: #46c1ae;
       transition: all 200ms ease-in;
     }
@@ -109,34 +104,27 @@
     }
 
     @media (--not-mobile) {
-      padding: 31px 33px 27px 36px;
-
       &:hover {
-        padding-bottom: 32px;
         background: #46c1ae;
         transition: all 200ms ease-in;
       }
     }
 
     @media (--desktop) {
-      padding: 31px 35px 27px 36px;
-
       &:hover {
-        padding-bottom: 32px;
         background: #46c1ae;
         transition: all 200ms ease-in;
       }
     }
+  }
 
-    &::after {
-      content: "";
-      display: block;
-      width: 60px;
-      height: 60px;
-      background: rgba(20, 144, 128, 0.5);
-      mask: var(--icon);
-      box-sizing: border-box;
-      transition: all 200ms ease-in;
-    }
+  &::after {
+    content: "";
+    display: block;
+    width: 62px;
+    height: 62px;
+    background: rgba(20, 144, 128, 0.5);
+    mask: var(--icon) no-repeat;
+    transition: all 200ms ease-in;
   }
 }
