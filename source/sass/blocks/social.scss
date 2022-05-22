@@ -1,10 +1,7 @@
 .social {
   @media (--mobile) {
-    background: url("../../img/footer-divider.svg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    width: 142px;
     padding: 25px 0 28px;
+    position: relative;
   }
 }
 
