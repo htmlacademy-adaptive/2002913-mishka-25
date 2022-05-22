@@ -3,7 +3,7 @@
   padding: 0;
   z-index: 2;
 
-  @media (--not-mobile) {
+  @media (--desktop) {
     display: flex;
     max-width: 50%;
     flex-wrap: wrap;
