@@ -11,11 +11,11 @@
 }
 
 .copyright__link {
-  background-repeat: no-repeat;
+
   background-position: center;
   background-size: 27px 34px;
   margin-left: 27px;
-  --icon: url("../../img/htmlacademy-mob.svg");
+  --icon: url("../../icons/sprite.svg#htmlacademy-mob");
   cursor: pointer;
 
   &:hover::after {
@@ -32,7 +32,7 @@
     width: 27px;
     height: 34px;
     background: #63d1bb;
-    mask: var(--icon);
+    mask: var(--icon) no-repeat;
     box-sizing: border-box;
   }
 }
