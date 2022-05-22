@@ -10,8 +10,8 @@
 .slider-reviews__previous {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 50px 26px;
-  --icon: url("../../img/slider-arrow-left.svg");
+  background-size: 50px 50px;
+  --icon: url("../../icons/sprite.svg#slider-arrow");
   background-color: var(--main-color);
   border: none;
   box-sizing: border-box;
@@ -45,9 +45,10 @@
     content: "";
     display: block;
     width: 50px;
-    height: 26px;
+    height: 50px;
     background: #000000;
     mask: var(--icon);
+    transform: rotate(180deg);
     box-sizing: border-box;
     cursor: pointer;
   }
@@ -56,8 +57,8 @@
 .slider-reviews__next {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 50px 26px;
-  --icon: url("../../img/slider-arrow-right.svg");
+  background-size: 50px 50px;
+  --icon: url("../../icons/sprite.svg#slider-arrow");
   cursor: pointer;
   background-color: var(--main-color);
   border: none;
@@ -87,7 +88,7 @@
     content: "";
     display: block;
     width: 50px;
-    height: 26px;
+    height: 50px;
     background: #000000;
     mask: var(--icon);
     box-sizing: border-box;

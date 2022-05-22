@@ -32,6 +32,16 @@
   line-height: 30px;
   font-weight: 400;
   border-bottom: 1px solid #62d1ba;
+
+  &:hover {
+    color: #46c1ae;
+    border-bottom: 1px solid #46c1ae;
+  }
+
+  &:active {
+    color: #46c1ae;
+    border-bottom: 1px solid rgba(70, 193, 174, 0.1);
+  }
 }
 
 .address__content {
