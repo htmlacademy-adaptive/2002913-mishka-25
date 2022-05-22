@@ -22,18 +22,18 @@
 .social__link {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 28px 22px;
+  background-size: 28px 28px;
 
   &--vkontakte {
-    --icon: url("../../img/social-vkontakte.svg");
+    --icon: url("../../icons/sprite.svg#social-vkontakte");
   }
 
   &--youtube {
-    --icon: url("../../img/social-youtube.svg");
+    --icon: url("../../icons/sprite.svg#social-youtube");
   }
 
   &--telegram {
-    --icon: url("../../img/social-telegram.svg");
+    --icon: url("../../icons/sprite.svg#social-telegram");
   }
 
   &:hover::before {
@@ -48,7 +48,7 @@
     content: "";
     display: block;
     width: 28px;
-    height: 22px;
+    height: 28px;
     background: #231f20;
     mask: var(--icon);
     box-sizing: border-box;
