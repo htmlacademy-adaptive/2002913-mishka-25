@@ -3,7 +3,7 @@
   position: relative;
   margin: auto;
   min-height: 336px;
-  z-index: 3;
+  z-index: 8;
 }
 
 .main-modal__container {
@@ -14,6 +14,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.9);
+  z-index: 8;
 
   &--close {
     display: none;
@@ -21,14 +22,17 @@
 }
 
 .main-modal__centerer {
-  padding: 35px 108px 46px;
-  max-width: 566px;
+  min-width: 566px;
   box-sizing: border-box;
   border: 1px solid #c6c6c6;
   box-shadow: 0 5px 10px rgba(0, 1, 1, 0.25);
 
   @media (--mobile) {
     padding: 28px 30px 46px;
+  }
+
+  @media (--not-mobile) {
+    padding: 37.5px 30px 46px;
   }
 }
 

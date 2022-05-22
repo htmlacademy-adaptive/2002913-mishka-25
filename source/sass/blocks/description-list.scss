@@ -5,6 +5,11 @@
   font-weight: 400;
   color: #444444;
   display: flex;
+
+  @media (--not-mobile) {
+    font-size: 15px;
+    line-height: 30px;
+  }
 }
 
 .description-list__name {
