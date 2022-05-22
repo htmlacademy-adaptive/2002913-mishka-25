@@ -19,6 +19,10 @@
     grid-template-columns: 1fr auto 1fr;
     max-width: 1050px;
   }
+
+  &--index {
+    --bg-index: #fafafa;
+  }
 }
 
 .main-header__wrapper {

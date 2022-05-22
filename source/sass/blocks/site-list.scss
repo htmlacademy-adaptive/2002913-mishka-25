@@ -1,6 +1,7 @@
 .site-list {
   list-style-type: none;
   padding: 0;
+  position: relative;
 
   @media (--mobile) {
     display: grid;
@@ -15,28 +16,18 @@
     justify-content: flex-start;
     column-gap: 38px;
 
-    &::after {
-      content: "";
-      display: block;
-      width: 100vw;
-      height: 50%;
-      position: absolute;
-      left: 0;
-      z-index: -1;
-      background-color: var(--second-color);
-      border-top: 1px solid #f1f1f1;
-    }
-
     &::before {
       content: "";
       display: block;
       width: 100vw;
-      height: 50%;
+      top: 0;
+      bottom: 0;
       position: absolute;
       right: 0;
       z-index: -1;
-      background-color: var(--second-color);
+      background-color: var(--bg-index, var(--second-color));
       border-top: 1px solid #f1f1f1;
+      box-shadow: 100vw 0 0 0 var(--bg-index, var(--second-color));
     }
   }
 
