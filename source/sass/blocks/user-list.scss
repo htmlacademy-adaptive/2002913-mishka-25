@@ -6,11 +6,17 @@
   @media (--not-mobile) {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    justify-content: flex-end;
   }
 }
 
+.user-list__item {
+  box-sizing: border-box;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  min-height: 88px;
+}
 
 .user-list__link {
   font-size: 17px;
@@ -22,6 +28,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  letter-spacing: 0.03rem;
 
   @media (--mobile) {
     position: relative;
@@ -71,7 +79,7 @@
       background: #000000;
       mask: var(--icon);
       margin-right: 31px;
-      margin-left: 31px;
+      margin-left: 30px;
     }
 
     &:hover::before {
@@ -89,7 +97,6 @@
     --icon: url("../../icons/sprite.svg#basket");
     background-repeat: no-repeat;
     background-position: center;
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
 
 
     &::before {
@@ -100,8 +107,8 @@
       background: #000000;
       mask: var(--icon) no-repeat;
       box-sizing: border-box;
-      margin-right: 31px;
-      margin-left: 31px;
+      margin-right: 28px;
+      margin-left: 32px;
       transition: all 200ms ease-in;
     }
 
