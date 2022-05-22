@@ -3,6 +3,10 @@
   line-height: 18px;
   font-weight: 700;
   color: #000000;
+
+  @media (--not-mobile) {
+    font-size: 19px;
+  }
 }
 
 

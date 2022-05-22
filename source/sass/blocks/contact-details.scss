@@ -2,6 +2,12 @@
   padding: 0;
 }
 
+.contact-details__name {
+  @media (--not-mobile) {
+    margin-top: 22px;
+  }
+}
+
 .contact-details__list {
   list-style-type: none;
   padding: 0;
@@ -48,6 +54,10 @@
   background-color: inherit;
   flex-grow: 1;
 
+  @media (--not-mobile) {
+    padding-left: 17px;
+  }
+
   &::placeholder {
     font-size: 19px;
     line-height: 18px;
@@ -69,6 +79,10 @@
   mask: var(--icon);
   background-color: rgba(0, 0, 0, 0.2);
 
+  @media (--not-mobile) {
+    margin-right: 20px;
+  }
+
   :focus-within {
     background: #62d1ba;
   }
@@ -81,6 +95,10 @@
   height: 32px;
   mask: var(--icon);
   background: rgba(0, 0, 0, 0.2);
+
+  @media (--not-mobile) {
+    margin-right: 20px;
+  }
 
   :focus-within {
     background: #62d1ba;

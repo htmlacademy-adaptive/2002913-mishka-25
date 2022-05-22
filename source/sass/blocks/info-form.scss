@@ -1,5 +1,9 @@
 .info-form__title {
   margin-bottom: 22.5px;
+
+  @media (--not-mobile) {
+    margin-top: 20px;
+  }
 }
 
 .info-form__text {
@@ -36,5 +40,6 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: baseline;
+    margin-top: 44px;
   }
 }

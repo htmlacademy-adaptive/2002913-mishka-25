@@ -7,7 +7,7 @@
   }
 
   @media (--desktop) {
-    padding-top: 98.5px;
+    padding-top: 110px;
   }
 }
 
@@ -33,7 +33,13 @@
 
   @media (--not-mobile) {
     background-color: var(--second-color);
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 26px;
+  }
+
+  @media (--desktop) {
+    padding-top: 45px;
+    padding-bottom: 50px;
   }
 }
 
@@ -46,11 +52,18 @@
 
   @media (--not-mobile) {
     background-color: var(--second-color);
+    padding-top: 25px;
+    padding-bottom: 28px;
   }
 }
 
 .form-order__field-info {
   margin-bottom: 54px;
+
+  @media (--not-mobile) {
+    padding-top: 15px;
+    margin-bottom: 35px;
+  }
 }
 
 .form-order__required-note {
@@ -58,4 +71,14 @@
   color: #444444;
   font-size: 14px;
   line-height: 1.14;
+
+  @media (--not-mobile) {
+    margin-bottom: 24px;
+  }
+}
+
+.form-order__button {
+  @media (--not-mobile) {
+    width: 230px;
+  }
 }

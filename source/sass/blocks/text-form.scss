@@ -10,4 +10,9 @@
     font-size: 17px;
     line-height: 30px;
   }
+
+  @media (--desktop) {
+    padding-left: 226px;
+    padding-right: 200px;
+  }
 }

@@ -10,13 +10,23 @@
     grid-template-columns: 1fr;
   }
 
+  @media (--not-mobile) {
+    column-gap: 22px;
+  }
+
   @media (--desktop) {
     grid-template-columns: repeat(3, 1fr);
+    padding-right: 110px;
+    row-gap: 26px;
   }
 }
 
 .color-form__title {
   margin-bottom: 25px;
+
+  @media (--not-mobile) {
+    margin-top: 20px;
+  }
 }
 
 .color-form__item {
@@ -24,11 +34,11 @@
     margin-bottom: 23px;
 
     @media (--not-mobile) {
-      margin-bottom: 60px;
+      margin-bottom: 24px;
     }
 
     @media (--desktop) {
-      margin-bottom: 57px;
+      margin-bottom: 0;
     }
   }
 }

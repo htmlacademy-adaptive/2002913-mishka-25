@@ -82,6 +82,10 @@
 
   &--box {
     gap: 23px;
+
+    @media (--not-mobile) {
+      gap: 30px;
+    }
   }
 
   &__control {
