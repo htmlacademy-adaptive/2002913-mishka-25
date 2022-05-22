@@ -30,33 +30,18 @@
 
 .main-footer__logo {
   display: none;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 102px 34px;
-  --icon: url("../../img/logo-footer.svg");
+
   cursor: pointer;
 
-  &:hover::after {
+  &:hover {
     background: #46c1ae;
     transition: all 200ms ease-in;
   }
 
-  &:active::after {
+  &:active {
     background: rgba(70, 193, 174, 0.3);
     transition: all 200ms ease-in;
   }
-
-  &::after {
-    content: "";
-    display: block;
-    width: 102px;
-    height: 34px;
-    background: #000000;
-    mask: var(--icon);
-    box-sizing: border-box;
-    transition: all 200ms ease-in;
-  }
-
 
   @media (--not-mobile) {
     display: block;
