@@ -7,7 +7,7 @@
   justify-content: center;
   margin: 0;
 
-  @media (--desktop) {
+  @media (--not-mobile) {
     font-size: 20px;
   }
 }

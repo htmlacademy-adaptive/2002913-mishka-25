@@ -37,9 +37,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
-    padding-top: 82.5px;
+    padding-top: 78.5px;
     padding-bottom: 47px;
     position: relative;
+    margin-bottom: 26px;
   }
 
   @media (--desktop) {
@@ -56,6 +57,12 @@
   @media (--not-mobile) {
     grid-area: 1 / 1 / 2 / 2;
     margin-bottom: 38.5px;
+    margin-top: 6px;
+  }
+
+  @media (--desktop) {
+
+    margin-top: 0;
   }
 }
 
@@ -87,6 +94,11 @@
   @media (--not-mobile) {
     grid-area: 1 / 2 / 2 / -1;
     max-height: 52px;
+    width: 52%;
     margin-left: auto;
+  }
+
+  @media (--desktop) {
+    width: 40%;
   }
 }

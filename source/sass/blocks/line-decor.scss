@@ -2,10 +2,10 @@
   content: "";
   background-image: url("../../icons/sprite.svg#zigzag-line");
   background-repeat: repeat-x;
-  background-size: auto;
+  background-size: 16px;
+  background-position: center;
   position: absolute;
   display: block;
-  box-sizing: border-box;
   left: 0;
   right: 0;
   z-index: 2;
@@ -15,11 +15,13 @@
 
   @media (--not-mobile) {
     height: 17px;
-    margin-top: 85px;
+    margin-top: 44px;
+    background-size: 45px;
   }
 
   @media (--desktop) {
     height: 23px;
-    margin-top: 96px;
+    margin-top: 63px;
+    background-size: 60px;
   }
 }

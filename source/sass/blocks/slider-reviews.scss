@@ -4,6 +4,8 @@
 
   @media (--not-mobile) {
     justify-content: flex-end;
+    transform: translateY(38px);
+    margin-right: 8px;
   }
 }
 
@@ -19,7 +21,7 @@
 
   @media (--mobile) {
     border: 1px solid #ececec;
-    padding: 13px 42px 13px 38px;
+    padding: 1px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -70,7 +72,7 @@
 
   @media (--mobile) {
     border: 1px solid #ececec;
-    padding: 13px 42px 13px 38px;
+    padding: 1px;
     width: 50%;
     display: flex;
     justify-content: center;

@@ -8,9 +8,12 @@
   }
 
   @media (--tablet) {
-    display: flex;
-    flex-wrap: wrap;
     margin: 0;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    column-gap: 38px;
 
     &::after {
       content: "";

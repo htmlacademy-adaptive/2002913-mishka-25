@@ -2,11 +2,17 @@
   font-size: 15px;
   line-height: 30px;
   counter-reset: #444444;
+  letter-spacing: 0.3px;
+
+  @media (--not-mobile) {
+    font-size: 17px;
+  }
 }
 
 .quote__text {
   margin: 0;
   margin-bottom: 33px;
+
 
   @media (--not-mobile) {
     margin-bottom: 61px;

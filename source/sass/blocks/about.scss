@@ -2,35 +2,32 @@
   text-align: start;
   margin: 0;
 
-  @media (--mobile) {
-    margin-bottom: 28px;
-  }
 
   @media (--not-mobile) {
-    margin-bottom: 41.5px;
+    margin-bottom: 27px;
   }
 
   @media (--desktop) {
     padding-left: 175px;
-    margin-bottom: 39px;
+    margin-bottom: 26px;
   }
 }
 
 .about__container {
   @media (--mobile) {
-    padding-top: 31px;
+    padding-top: 38px;
     padding-bottom: 58px;
   }
 
   @media (--not-mobile) {
-    padding-top: 55.5px;
-    padding-bottom: 83px;
+    padding-top: 64.5px;
+    padding-bottom: 42px;
   }
 
   @media (--desktop) {
-    padding-top: 68px;
+    padding-top: 83px;
     padding-right: 175px;
-    padding-bottom: 90px;
+    padding-bottom: 48px;
     padding-left: 175px;
 
     max-width: 1050px;

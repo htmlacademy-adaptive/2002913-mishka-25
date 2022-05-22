@@ -8,13 +8,18 @@
   @media (--mobile) {
     padding: 22px 0 23px;
   }
+
+  @media (--not-mobile) {
+    margin-right: -8px;
+  }
 }
+
 
 .copyright__link {
 
   background-position: center;
-  background-size: 27px 34px;
-  margin-left: 27px;
+  background-size: 34px;
+  margin-left: 33px;
   --icon: url("../../icons/sprite.svg#htmlacademy-mob");
   cursor: pointer;
 
@@ -31,11 +36,10 @@
   &::after {
     content: "";
     display: block;
-    width: 27px;
+    width: 34px;
     height: 34px;
     background: #63d1bb;
-    mask: var(--icon) no-repeat;
-    box-sizing: border-box;
+    mask: var(--icon) no-repeat center;
     transition: all 200ms ease-in;
   }
 }
