@@ -102,12 +102,14 @@
 
   &:hover {
     --control-color: var(--accent-color);
+    transition: all 200ms ease-in;
   }
 
   &:focus-visible {
     outline: 3px solid var(--accent-color);
     outline-offset: 3px;
     --control-color: var(--accent-color);
+    transition: all 200ms ease-in;
   }
 
   &:checked {

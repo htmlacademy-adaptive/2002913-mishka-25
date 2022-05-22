@@ -7,6 +7,18 @@
   border: 1px solid #ececec;
   box-sizing: border-box;
   flex-grow: 1;
+  height: 100%;
+  transition: all 200ms ease-in;
+
+  &:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+    transition: all 200ms ease-in;
+  }
+
+  &:active {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    transition: all 200ms ease-in;
+  }
 
   @media (--mobile) {
     padding: 0 27px;

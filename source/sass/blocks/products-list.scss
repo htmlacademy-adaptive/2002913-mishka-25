@@ -39,6 +39,7 @@
 
   &:hover {
     margin-top: -5px;
+    transition: all 200ms ease-in;
   }
 
 
@@ -50,10 +51,12 @@
     &:hover {
       padding-bottom: 23px;
       background: #59d5bc;
+      transition: all 200ms ease-in;
     }
 
     &:active {
       background: #59d5bc;
+      transition: all 200ms ease-in;
     }
 
 
@@ -63,6 +66,7 @@
       &:hover {
         padding-bottom: 32px;
         background: #59d5bc;
+        transition: all 200ms ease-in;
       }
     }
 
@@ -72,6 +76,7 @@
       &:hover {
         padding-bottom: 32px;
         background: #59d5bc;
+        transition: all 200ms ease-in;
       }
     }
 
@@ -83,6 +88,7 @@
       background: rgba(20, 144, 128, 0.5);
       mask: var(--icon);
       box-sizing: border-box;
+      transition: all 200ms ease-in;
     }
   }
 
@@ -94,10 +100,12 @@
     &:hover {
       padding-bottom: 27px;
       background: #46c1ae;
+      transition: all 200ms ease-in;
     }
 
     &:active {
       background: #46c1ae;
+      transition: all 200ms ease-in;
     }
 
     @media (--not-mobile) {
@@ -106,6 +114,7 @@
       &:hover {
         padding-bottom: 32px;
         background: #46c1ae;
+        transition: all 200ms ease-in;
       }
     }
 
@@ -115,6 +124,7 @@
       &:hover {
         padding-bottom: 32px;
         background: #46c1ae;
+        transition: all 200ms ease-in;
       }
     }
 
@@ -126,6 +136,7 @@
       background: rgba(20, 144, 128, 0.5);
       mask: var(--icon);
       box-sizing: border-box;
+      transition: all 200ms ease-in;
     }
   }
 }

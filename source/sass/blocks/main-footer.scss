@@ -27,10 +27,12 @@
 
   &:hover::after {
     background: #46c1ae;
+    transition: all 200ms ease-in;
   }
 
   &:active::after {
     background: rgba(70, 193, 174, 0.3);
+    transition: all 200ms ease-in;
   }
 
   &::after {
@@ -41,6 +43,7 @@
     background: #000000;
     mask: var(--icon);
     box-sizing: border-box;
+    transition: all 200ms ease-in;
   }
 
 

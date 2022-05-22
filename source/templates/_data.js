@@ -59,5 +59,13 @@ export default {
       "alt": "Тут должно быть интересное видео.",
       "viewports": ["desktop", "tablet", "mobile"]
     },
+    "map": {
+      "ext": "png",
+      "width": 320,
+      "height": 454,
+      "maxdppx": 2,
+      "alt": "Наш адресс.",
+      "viewports": ["desktop", "tablet", "mobile"]
+    },
   }
 }
