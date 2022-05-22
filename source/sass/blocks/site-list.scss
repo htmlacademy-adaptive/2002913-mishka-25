@@ -23,8 +23,8 @@
       position: absolute;
       left: 0;
       z-index: -1;
-      background-color: #f9f9f9;
-      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      background-color: var(--second-color);
+      border-top: 1px solid #f1f1f1;
     }
 
     &::before {
@@ -35,8 +35,8 @@
       position: absolute;
       right: 0;
       z-index: -1;
-      background-color: #f9f9f9;
-      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      background-color: var(--second-color);
+      border-top: 1px solid #f1f1f1;
     }
   }
 
