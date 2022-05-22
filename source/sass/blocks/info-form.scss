@@ -4,11 +4,17 @@
 
 .info-form__text {
   width: 100%;
-  margin-bottom: 17px;
+  margin-bottom: 4px;
   resize: vertical;
   border: 2px solid rgba(68, 68, 68, 1);
   padding: 17px;
   box-sizing: border-box;
+
+  &::placeholder {
+    font-size: 17px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.3);
+  }
 
   &:hover {
     border: 2px solid rgba(98, 209, 186, 1);

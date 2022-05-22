@@ -70,14 +70,18 @@
 
 .check {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 
   &--radio {
-    gap: 19px;
+    gap: 21px;
   }
 
   &--box {
     gap: 23px;
+  }
+
+  &__control {
+    margin: 0;
   }
 }
 
@@ -92,7 +96,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translateY(-30%);
   position: relative;
 
 
@@ -158,7 +161,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translateY(-30%);
   position: relative;
 
   @media (--not-mobile) {
