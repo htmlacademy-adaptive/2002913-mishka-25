@@ -1,4 +1,4 @@
-.main-modal {
+.main-modal__container {
   background: var(--main-color);
   position: relative;
   margin: auto;
@@ -6,7 +6,7 @@
   z-index: 8;
 }
 
-.main-modal__container {
+.main-modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -22,7 +22,6 @@
 }
 
 .main-modal__centerer {
-  min-width: 566px;
   box-sizing: border-box;
   border: 1px solid #c6c6c6;
   box-shadow: 0 5px 10px rgba(0, 1, 1, 0.25);

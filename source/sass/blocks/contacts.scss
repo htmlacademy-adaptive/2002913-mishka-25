@@ -20,7 +20,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     margin-inline: auto;
-    padding-top: 93px;
+    padding-top: 121px;
     padding-bottom: 46px;
   }
 }
@@ -92,7 +92,7 @@
 .contacts__map {
   display: grid;
   grid-template-columns: 1fr;
-  margin-bottom: 42px;
+  margin-bottom: 21px;
 
   @media (--not-mobile) {
     grid-column: 1 / -1;
@@ -153,7 +153,7 @@
     width: 230px;
     box-sizing: border-box;
     margin-left: 28px;
-    margin-top: 14px;
+    margin-top: 36px;
   }
 
   @media (--desktop) {
